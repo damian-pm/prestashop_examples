@@ -1,0 +1,5 @@
+car:
+    path: /car_crush
+    methods:  [GET]
+    defaults:
+        _controller: PrestaShopBundle:Admin/Improve/Car:crush
