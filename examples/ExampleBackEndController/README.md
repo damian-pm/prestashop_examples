@@ -1,5 +1,5 @@
 # Example BackEnd Controller
 
-* Copy all content of dir ExampleBackEndController to the root of project
-* How call created controller:
+* Copy full content of a ExampleBackEndController directory to the root of project
+* Call controller from URL:
   * > /admin-dev/improve/shipping/car_crush
