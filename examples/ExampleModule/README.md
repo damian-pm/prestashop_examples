@@ -12,7 +12,7 @@
 * executing method in module/car.php 'function install', it works only if you dont have it yet installed\
  `... prestashop:module install car`
 
-* call method install in car class even if it is installed module\
+* call method 'install' in 'car class' even if module is installed \
  `... prestashop:module reset car`
 
 * call method uninstall in car class\
