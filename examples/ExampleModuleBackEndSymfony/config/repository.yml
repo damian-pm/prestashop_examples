@@ -1,0 +1,9 @@
+services:
+    _defaults:
+        public: true
+
+    cartest.repository:
+        class: Modules\Car\Entity\Repository\CarTestRepository
+        factory: ['@doctrine.orm.default_entity_manager', getRepository]
+        arguments:
+            - Modules\Car\Entity\CarTest

@@ -1,5 +1,6 @@
 # Example BackEnd Controller
 
-* Copy full content of a ExampleBackEndController directory to the root of project
-* Call controller from URL:\
+1. Copy content of an `/examples/ExampleBackEndController` directory to the root of your project
+
+1. Call controller from URL:\
 `presta.test/admin-dev/improve/shipping/car_crush`

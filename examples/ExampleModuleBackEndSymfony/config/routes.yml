@@ -1,0 +1,7 @@
+ccc:
+    path: /test
+    methods: [GET, POST]
+    controller: Modules\Car\Controller\DemoController::demoAction
+
+    # defaults:
+    #   _controller: Modules\Car\Controller:DemoController::demoAction

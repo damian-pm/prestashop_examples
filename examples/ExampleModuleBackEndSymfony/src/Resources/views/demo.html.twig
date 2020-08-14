@@ -1,0 +1,33 @@
+{% extends '@PrestaShop/Admin/Module/common.html.twig' %}
+
+{% block javascripts %}
+  {{ parent() }}
+{% endblock %}
+
+{% block content %}
+-- Hello, {{customMessage}} form:
+{{form(form)}}
+<hr>
+<table class="table">
+<thead>
+  <tr>
+    <td>Name</td>
+    <td>Model</td>
+    <td>Description</td>
+    <td>State</td>
+  </tr>
+</thead>
+<tbody>
+  {% for car in carCollection %}
+    <tr>
+      <td>{{car.name}}</td>
+      <td>{{car.model}}</td>
+      <td>{{car.description}}</td>
+      <td>{{car.state}}</td>
+    </tr>
+  {% endfor %}
+</tbody>
+</table>
+
+
+{% endblock %}

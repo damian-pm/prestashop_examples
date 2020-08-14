@@ -5,3 +5,4 @@ Choose one of example in dir examples/ and go step by step installation with fil
 * [Example Front Controller (Page)](https://github.com/damian-pm/prestashop_examples/tree/master/examples/ExampleFrontController)
 * [Example BackEnd Controller (Admin Panel)](https://github.com/damian-pm/prestashop_examples/tree/master/examples/ExampleBackEndController)
 * [Example Module](https://github.com/damian-pm/prestashop_examples/tree/master/examples/ExampleModule)
+* [Example Module BackEnd in Symfony](https://github.com/damian-pm/prestashop_examples/tree/master/examples/ExampleModuleBackEndSymfony)
