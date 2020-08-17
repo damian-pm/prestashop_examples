@@ -58,3 +58,9 @@
                       alias: AppCar
     ```
 1. ##### Copy content of example from repo `examples/ExampleModulesBackEndSymfony` to your root project
+
+### Access to the module:
+* you can enter to the module directly by url
+`http://presta.test/admin-dev/modules/test`
+* or by panel 'module manager'
+`http://presta.test/admin-dev/improve/modules/manage`
