@@ -4,5 +4,5 @@ Choose one of example and install step by step them. I show here how to create p
 
 * [Example - Front-controller (Page)](https://github.com/damian-pm/prestashop_examples/tree/master/examples/ExampleFrontController)
 * [Example - Backend-controller (Admin Panel) (Symfony)](https://github.com/damian-pm/prestashop_examples/tree/master/examples/ExampleBackEndController)
-* [Example - Module](https://github.com/damian-pm/prestashop_examples/tree/master/examples/ExampleModule)
-* [Example - Module backend (Symfony)](https://github.com/damian-pm/prestashop_examples/tree/master/examples/ExampleModuleBackEndSymfony)
+* [Example - Module backend (Smarty)](https://github.com/damian-pm/prestashop_examples/tree/master/examples/ExampleModule)
+* [Example - Module backend (Smarty/Symfony)](https://github.com/damian-pm/prestashop_examples/tree/master/examples/ExampleModuleBackEndSymfony)
