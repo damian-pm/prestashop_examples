@@ -9,7 +9,7 @@
 * Now you can find you new module on a list of modules manager (admin panel), http://presta.test/admin-dev/index.php/improve/modules/manage
 
 ### Commands
-* executing method in module/car.php 'function install', it works only if you dont have it yet installed\
+* executing method in module/car.php 'function install', it works only if you did not installed it yet \
  `... prestashop:module install car`
 
 * call method 'install' in 'car class' even if module is installed \
