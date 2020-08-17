@@ -6,7 +6,7 @@
 
 * Second thing you have to do is to register this module by executing command:
 `php bin/console prestashop:module install car`
-* Now you can find you new module on a list of modules manager (admin panel), http://presta.test/admin-dev/index.php/improve/modules/manage
+* Now you can find your new module on a list of modules manager (admin panel), http://presta.test/admin-dev/index.php/improve/modules/manage
 
 ### Commands
 * executing method in module/car.php 'function install', it works only if you did not installed it yet \
