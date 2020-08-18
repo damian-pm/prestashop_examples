@@ -1,0 +1,24 @@
+/*
+ * Custom code goes here.
+ * A template should always ship with an empty custom.css
+ */
+ .featured-products div.highlighted-informations{
+	height:5.125rem;
+}
+#products  div.product-description.prod-desc-s, .thumbnail-container div.product-description.prod-desc-s {
+	height: 100px;
+}
+
+.carousel .carousel-item figure img {
+	height: 400px;
+}
+
+.carousel .carousel-inner.c2 {
+	height: 400px;
+}
+
+#wrapper {
+	background-image: url(/themes/sea/assets/image/2.jpg);
+    background-size: auto;
+	background-attachment: fixed;
+}
