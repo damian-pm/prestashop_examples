@@ -11,7 +11,6 @@
           "PrestaShopBundle\\": "src/PrestaShopBundle/",
           "Modules\\": "modules/"
       },
-      ...
     }
   }
   ```
