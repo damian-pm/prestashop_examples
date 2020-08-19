@@ -3,25 +3,24 @@
 ### Install
 
 1. Add to the composer autoload new namespace 'Modules'
-  ```json
-  {
-    "autoload": {
-      "psr-4": {
-          "PrestaShop\\PrestaShop\\": "src/",
-          "PrestaShopBundle\\": "src/PrestaShopBundle/",
-          "Modules\\": "modules/"
-      },
+    ```json
+    {
+      "autoload": {
+        "psr-4": {
+            "PrestaShop\\PrestaShop\\": "src/",
+            "PrestaShopBundle\\": "src/PrestaShopBundle/",
+            "Modules\\": "modules/"
+        },
+      }
     }
-  }
-  ```
-  composer [more details here](https://getcomposer.org/doc/01-basic-usage.md)
-  ###### Info: if for some reason symfony wont see new namespace, execute command:
-  ```bash
-  composer dump-autoload -o
-  ```
-1.Copy `examples/ExampleTranslationService` to your root project.
-
-1. You got two options to register new translation file .xlf:
+    ```
+    composer [more details here](https://getcomposer.org/doc/01-basic-usage.md)
+    ###### Info: if for some reason symfony wont see new namespace, execute command:
+    ```bash
+    composer dump-autoload -o
+    ```
+1. Copy `examples/ExampleTranslationService` to your root project.
+1. Now you got two options to register new translation file .xlf:
   * executing command for example:
     ```bash
     # for one file
