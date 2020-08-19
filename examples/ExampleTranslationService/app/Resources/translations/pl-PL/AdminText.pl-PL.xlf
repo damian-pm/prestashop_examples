@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file original="modules/textTranslation/src/Resources/views/translation.html.twig" source-language="en" target-language="pl" datatype="plaintext">
+    <body>
+      <trans-unit id="5f2c094de2848d0d36b59de2ff06e799" approved="yes">
+        <source>text_trans</source>
+        <target state="final">Translated_text_text_trans</target>
+      </trans-unit>
+    </body>
+  </file>
+  </xliff>

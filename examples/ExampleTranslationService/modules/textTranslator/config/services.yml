@@ -1,0 +1,9 @@
+services:
+    _defaults:
+      public: true
+  
+    textTranslator.trans:
+      class: Modules\textTranslator\Service\TranslatorService
+      arguments:
+        - "@translator"
+        - "My custom message"

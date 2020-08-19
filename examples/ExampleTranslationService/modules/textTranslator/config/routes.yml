@@ -1,0 +1,7 @@
+translator_text:
+  path: /translate
+  methods: [GET, POST]
+  defaults:
+    _controller: 'Modules\textTranslator\Controller\TranslatorController::indexAction'
+    _legacy_controller: AdminLinkWidget
+    _legacy_link: AdminLinkWidget

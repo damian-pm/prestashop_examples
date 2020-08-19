@@ -1,0 +1,24 @@
+
+{% extends '@PrestaShop/Admin/Module/common.html.twig' %}
+
+{% block javascripts %}
+  {{ parent() }}
+{% endblock %}
+
+{% block content %}
+<div>{{ 'Sample from template twig: ' ~ 'text_trans'|trans({}, 'Admin.Text') }}</div>
+<hr>
+<h2>Translate text</h2>
+<form action="#" method="POST">
+    Word:<input type="text" name="word"/>
+    <input type="submit" name="translate"/>
+</form>
+Result: {{text}}
+
+<hr/>
+<b>path translations</b>: /app/Resources/translations/default/AdminText.xlf
+<br/>
+<b>example translation working</b>: text_trans
+<br/>
+
+{% endblock %}
