@@ -29,3 +29,4 @@
     php bin/console lint:xliff app/Resources/translations/
     ```
   * or in admin panel `/admin-dev/index.php/improve/international/translations/settings`  'update or install', select language and click 'add or update language'
+1. Enter to the controller by url `/admin-dev/modules/translate` if you enter there you will see a form with examples
