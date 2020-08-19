@@ -58,7 +58,8 @@
                       alias: AppCar
     ```
 1. ##### Copy content of example from repo `examples/ExampleModulesBackEndSymfony` to your root project
-
+#### INFO : If symfony dont see namespace or controller, you can try clear composer mapped namespace by executing 
+`composer dump-autoload -o`
 ### Access to the module:
 * you can enter to the module directly by url
 `http://presta.test/admin-dev/modules/test`
