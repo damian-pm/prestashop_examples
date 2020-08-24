@@ -32,3 +32,5 @@ Module will display
 
 ### Access:
 Through admin panel or in example by url: /admin-dev/modules/allegro
+
+###  [Allegro API - documentation](https://developer.allegro.pl/documentation)
