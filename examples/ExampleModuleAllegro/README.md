@@ -22,7 +22,7 @@ Module will display
 1. Copy this example to the root project
 1. Register new module in ps:
     ```bash
-        php bin/console prestashop:module install allegro
+    php bin/console prestashop:module install allegro
     ```
 1. [Geting start with allegro - tutorial](https://developer.allegro.pl/getting_started/#jak-zarejestrowa%c4%87-now%c4%85-aplikacj%c4%99), you wil get there API access.
   Steps from tutorial:
