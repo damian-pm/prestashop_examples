@@ -31,4 +31,4 @@ Module will display
 1. Replace clientId and clientSercert in AllegroController.ph with your new created API
 
 ### Access:
-Throw admin panel or in example by url: /admin-dev/modules/allegro
+Through admin panel or in example by url: /admin-dev/modules/allegro
