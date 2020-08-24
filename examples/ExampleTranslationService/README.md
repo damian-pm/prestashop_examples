@@ -21,12 +21,12 @@
     ```
 1. Copy `examples/ExampleTranslationService` to your root project.
 1. Now you got two options to register new translation file .xlf:
-  * executing command for example:
-    ```bash
-    # for one file
-    php bin/console lint:xliff app/Resources/translations/en-US/AdminText.en-US.xlf
-    # for directory, reload can take more time
-    php bin/console lint:xliff app/Resources/translations/
-    ```
-  * or in admin panel `/admin-dev/index.php/improve/international/translations/settings`  'update or install', select language and click 'add or update language'
-1. Enter to the controller by url `/admin-dev/modules/translate` if you enter there you will see a form with examples
+      * executing command for example:
+        ```bash
+        # for one file
+        php bin/console lint:xliff app/Resources/translations/en-US/AdminText.en-US.xlf
+        # for directory, reload can take more time
+        php bin/console lint:xliff app/Resources/translations/
+        ```
+      * or in admin panel `/admin-dev/index.php/improve/international/translations/settings`  'update or install', select language and click 'add or update language'
+1. Enter to the controller by url `/admin-dev/modules/translate` if you go there you will see a form with examples
