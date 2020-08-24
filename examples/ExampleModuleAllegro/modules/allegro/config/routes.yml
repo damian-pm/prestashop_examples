@@ -1,0 +1,8 @@
+allegro_view:
+    path: /allegro
+    methods: [GET, POST]
+    defaults:
+      _controller: 'Modules\allegro\Controller\AllegroController::indexAction'
+      _legacy_controller: AllegroWidget
+      _legacy_link: AllegroWidget
+  

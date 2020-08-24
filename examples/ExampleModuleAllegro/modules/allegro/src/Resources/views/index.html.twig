@@ -1,0 +1,27 @@
+{% extends '@PrestaShop/Admin/Module/common.html.twig' %}
+
+{% block javascripts %}
+  {{ parent() }}
+{% endblock %}
+
+{% block content %}
+  <h2>{{title}}</h2>
+  <br/>
+  <table class="table">
+  <thead>
+    <tr>
+      <td>id</td>
+      <td>name</td>
+    </tr>
+  </thead>
+  <tbody>
+    {% for cat in categories.categories %}
+    <tr>
+      <td>{{cat.id}}</td>
+      <td>{{cat.name}}</td>
+    </tr>
+  {% endfor %}
+  </tbody>
+  </table>
+
+{% endblock %}
