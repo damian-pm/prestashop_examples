@@ -6,9 +6,9 @@ Simple webservice api writed in clear php it is write according to version 1.6 s
 1. Register namespace 'Modules' like in this example (only first step is required): [Example - Simple Allegro Module ](https://github.com/damian-pm/prestashop_examples/tree/master/examples/ExampleModuleAllegro)
 1. Copy this example ``(ExampleWebserviceApi)`` to the root of your project
 1. Install module 'callme':
-  ```bash
-  php bin/console prestashop:module install callme
-  ```
+    ```bash
+    php bin/console prestashop:module install callme
+    ```
 
 1. Clear cache
   ```bash
