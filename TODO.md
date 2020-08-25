@@ -5,3 +5,4 @@
 * Jak zrobić encje w doctrine czy tylko recznie się da?
 * jak dodac webservice
 * jak zrobic widget
+* czy da rade zrobic symfonowy modul w pełnej krasie bez przekierowan
