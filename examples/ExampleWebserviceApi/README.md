@@ -11,9 +11,9 @@ Simple webservice api writed in clear php it is write according to version 1.6 s
     ```
 
 1. Clear cache
-  ```bash
-  php bin/console cache:clear
-  ```
+      ```bash
+      php bin/console cache:clear
+      ```
 
 ### Step 2 - Register webservice
 
