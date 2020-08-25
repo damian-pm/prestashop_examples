@@ -9,3 +9,6 @@ Choose one of example and install step by step them. I show here how to create p
 * [Example - Basic theme classic/sea](https://github.com/damian-pm/prestashop_examples/tree/master/examples/ExampleThemeSea)
 * [Example - Service translation with custome .xlf](https://github.com/damian-pm/prestashop_examples/tree/master/examples/ExampleTranslationService)
 * [Example - Simple Allegro Module ](https://github.com/damian-pm/prestashop_examples/tree/master/examples/ExampleModuleAllegro)
+
+Tutorials:
+* [knowband tutorial](https://www.knowband.com/blog/pl/prestashop-poradniki/)
