@@ -37,7 +37,7 @@ in example :``http://presta.test/api/callme``.
 
 After that browser will ask you for login and password. Go again to the ``Advanced Parameters >  Webservice`` copy new created api key in my example was 'JMEKRA1GY635KXG4C2W577WA6SR6519I'.
 
-So now we can go back to the login panel and past api key to the login input, password we leave empty. Click now you get xml response, list of customers.
+So now we can go back to the login panel and past api key to the login input, password we leave empty. Click login and now you get xml response, list of customers.
 
 ### Details
 
