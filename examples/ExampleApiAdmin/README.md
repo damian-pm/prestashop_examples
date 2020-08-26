@@ -2,7 +2,7 @@
 
 ### Install
 1. Copy content of this exampel to the root project.
-1. Add new routing, passing below code for example to this file:
+1. Add new routing, passing below code for example to this file:\
   ``/src/PrestaShopBundle/Resources/config/routing/api/features.yml``
   ```yml
   api_stock_list_beer:
@@ -12,7 +12,7 @@
         _controller: prestashop.core.api.beer.controller:indexAction
 
   ```
-1. Register new controller, adding code for example here:
+1. Register new controller, adding code for example here:\
   ```/src/PrestaShopBundle/Resources/config/services/bundle/controller.yml```
   ```yml
     services:
