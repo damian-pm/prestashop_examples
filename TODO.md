@@ -6,3 +6,5 @@
 * jak dodac webservice symfonowy
 * jak zrobic widget
 * czy da rade zrobic symfonowy modul w pełnej krasie bez przekierowan
+* jak generowac email
+* jak zrobic theme email
