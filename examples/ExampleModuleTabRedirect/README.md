@@ -23,7 +23,7 @@ You will see here:
   composer dump-autoload -o
   ```
 ### Details
-Position tab in menu you can chooce pasing name of class for example 'AdminParentCustomer'
+Position tab in menu you can choose pasing name of class for example 'AdminParentCustomer'
 ```php
 // file: car.php
 // AdminParentCustomer, AdminParentOrders, AdminParentShipping, AdminParentModules, AdminParentPreferences etc.
