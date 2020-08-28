@@ -17,4 +17,8 @@ You will see here:
 
     # last thing clear cache
   php bin/console cache:clear
+  
+  # OPTIONAL:
+  # refrest mapped namespace
+  composer dump-autoload -o
   ```
