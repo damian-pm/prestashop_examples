@@ -4,10 +4,14 @@
 
 1. Copy example to your root dir project.
 1. Install module vendors/
-  ```bash
-  cd modules/car
-  composer i
-  ```
+    ```bash
+    cd modules/car
+    composer i
+    ```
+1. Install module for PrestaShop
+    ```bash
+    php bin/console prestashop:module install car
+    ```
 1. (optional) Refresh mapping namespace, cache:
 ```bash
 composer dump-autoload -o
