@@ -1,9 +1,7 @@
 <?php
 
 // modules/yourmodule/src/YourService.php
-namespace Modules\Car\Service;
-
-use Symfony\Component\Translation\TranslatorInterface;
+namespace PrestaShop\Module\Car\Service;
 
 class YourService {
 

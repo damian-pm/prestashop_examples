@@ -1,67 +1,22 @@
 # Example - Module backend in Symfony
 
-### Install - 3 steps
-1. ##### Edit file composer.json in root project dir, add code:
-    ` ... "Modules\\": "modules/" ...`
+### Install
 
-      In my project it looks like this:
+1. Copy example to your root dir project.
+1. Install module vendors/
+  ```bash
+  cd modules/car
+  composer i
+  ```
+1. (optional) Refresh mapping namespace, cache:
+```bash
+composer dump-autoload -o
+php bin/console cache:clear
+```
 
-      ```json
-      "autoload": {
-        "psr-4": {
-              "PrestaShop\\PrestaShop\\": "src/",
-              "PrestaShopBundle\\": "src/PrestaShopBundle/",
-              "Modules\\": "modules/"
-          },
-          "classmap": [
-              "app/AppKernel.php",
-              "app/AppCache.php"
-          ]
-          },
-      ```
-      Importent here is to show Symfony new namespace 'Modules'
-
-1. ##### Edit file app/config/config.yml to add new doctrine mapping directory, add code:
-    ```yml
-    mappings:  # define custom mapping
-      SomeEntityNamespace:
-          type: annotation
-          dir: '%kernel.project_dir%/modules/car/src/Entity'
-          is_bundle: false
-          prefix: Modules\Car\Entity
-          alias: AppCar
-    ```
-    In my project it looks like this:
-    ```yml
-    # Doctrine Configuration
-      doctrine:
-          dbal:
-              default_connection: default
-
-              connections:
-                  default:
-                    ...
-          orm:
-              auto_generate_proxy_classes: "%kernel.debug%"
-              # naming_strategy: doctrine.orm.naming_strategy.underscore
-              naming_strategy: prestashop.database.naming_strategy
-              auto_mapping: true
-              dql:
-                  string_functions:
-                      regexp: DoctrineExtensions\Query\Mysql\Regexp
-              mappings:  # define custom mapping
-                  SomeEntityNamespace:
-                      type: annotation
-                      dir: '%kernel.project_dir%/modules/car/src/Entity'
-                      is_bundle: false
-                      prefix: Modules\Car\Entity
-                      alias: AppCar
-    ```
-1. ##### Copy content of example from repo `examples/ExampleModulesBackEndSymfony` to your root project
-#### INFO : If symfony dont see namespace or controller, you can try clear composer mapped namespace by executing
-`composer dump-autoload -o`
-### Access to the module:
+### Access
 * you can enter to the module directly by url
 `http://presta.test/admin-dev/modules/test`
+
 * or by panel 'module manager'
 `http://presta.test/admin-dev/improve/modules/manage`

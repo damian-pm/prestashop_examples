@@ -1,10 +1,10 @@
 <?php
 
-use GuzzleHttp\Subscriber\Redirect;
-use Modules\Car\Controller\DemoController;
+if (file_exists(__DIR__ . '/vendor/autoload.php')) {
+    require_once __DIR__ . '/vendor/autoload.php';
+}
 
-class Car extends Module
-{
+class Car extends Module {
     const MODULE_NAME = 'car';
 
     protected $_html;

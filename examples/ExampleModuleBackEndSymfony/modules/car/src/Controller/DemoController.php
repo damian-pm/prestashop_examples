@@ -1,13 +1,13 @@
 <?php
 
-namespace Modules\Car\Controller;
+namespace PrestaShop\Module\Car\Controller;
 
 use Doctrine\ORM\EntityManager;
 use PrestaShopBundle\Controller\Admin\FrameworkBundleAdminController;
 use Symfony\Component\HttpFoundation\Request;
-use Modules\Car\Entity\CarTest;
-use Modules\Car\Form\CarType;
-use Modules\Car\Service\YourService;
+use PrestaShop\Module\Car\Entity\CarTest;
+use PrestaShop\Module\Car\Form\CarType;
+use PrestaShop\Module\Car\Service\YourService;
 
 class DemoController extends FrameworkBundleAdminController
 {
@@ -18,7 +18,7 @@ class DemoController extends FrameworkBundleAdminController
         $yourService    = $this->get('your.service');
         /** @var EntityManager $em */
         $em             = $this->getDoctrine()->getManager();
-        
+
         $car            = new CarTest();
         $car->setName('Renault');
         $form           = $this->createForm(CarType::class, $car);
@@ -32,13 +32,13 @@ class DemoController extends FrameworkBundleAdminController
             // for example, if Task is a Doctrine entity, save it!
             $em->persist($task);
             $em->flush();
-    
+
             // return $this->redirectToRoute('task_success');
         }
 
         $qb = $em->createQueryBuilder()
         ->select('ct')
-        ->from('AppCar:CarTest', 'ct')
+        ->from('PrestaShop\Module\Car\Entity\CarTest', 'ct')
         ->orderBy('ct.name', 'ASC');
         $query = $qb->getQuery();
         // // Execute Query

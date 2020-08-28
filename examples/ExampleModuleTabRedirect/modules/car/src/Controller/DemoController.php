@@ -1,6 +1,6 @@
 <?php
 
-namespace Modules\Car\Controller;
+namespace PrestaShop\Module\Car\Controller;
 
 use PrestaShopBundle\Controller\Admin\FrameworkBundleAdminController;
 

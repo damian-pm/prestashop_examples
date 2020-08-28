@@ -1,13 +1,13 @@
 <?php
 
-namespace Modules\Car\Entity;
+namespace PrestaShop\Module\Car\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
 
 /**
  * CarTest.
  *
- * @ORM\Entity(repositoryClass="Modules\Car\Entity\Repository\CarTestRepository")
+ * @ORM\Entity(repositoryClass="PrestaShop\Module\Car\Entity\Repository\CarTestRepository")
  * @ORM\Table(name="ps_car_test")
  */
 class CarTest
@@ -53,7 +53,7 @@ class CarTest
      * Get the value of id
      *
      * @return  int
-     */ 
+     */
     public function getId()
     {
         return $this->id;
@@ -65,7 +65,7 @@ class CarTest
      * @param  int  $id
      *
      * @return  self
-     */ 
+     */
     public function setId(int $id)
     {
         $this->id = $id;
@@ -78,7 +78,7 @@ class CarTest
      * Get the value of model
      *
      * @return  string
-     */ 
+     */
     public function getModel()
     {
         return $this->model;
@@ -90,7 +90,7 @@ class CarTest
      * @param  string  $model
      *
      * @return  self
-     */ 
+     */
     public function setModel(string $model)
     {
         $this->model = $model;
@@ -102,7 +102,7 @@ class CarTest
      * Get the value of name
      *
      * @return  string
-     */ 
+     */
     public function getName()
     {
         return $this->name;
@@ -114,7 +114,7 @@ class CarTest
      * @param  string  $name
      *
      * @return  self
-     */ 
+     */
     public function setName(string $name)
     {
         $this->name = $name;
@@ -126,7 +126,7 @@ class CarTest
      * Get the value of state
      *
      * @return  string
-     */ 
+     */
     public function getState()
     {
         return $this->state;
@@ -138,7 +138,7 @@ class CarTest
      * @param  string  $state
      *
      * @return  self
-     */ 
+     */
     public function setState(string $state)
     {
         $this->state = $state;
@@ -150,7 +150,7 @@ class CarTest
      * Get the value of description
      *
      * @return  string
-     */ 
+     */
     public function getDescription()
     {
         return $this->description;
@@ -162,7 +162,7 @@ class CarTest
      * @param  string  $description
      *
      * @return  self
-     */ 
+     */
     public function setDescription(string $description)
     {
         $this->description = $description;

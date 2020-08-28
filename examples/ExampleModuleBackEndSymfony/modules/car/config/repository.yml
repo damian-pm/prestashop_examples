@@ -3,7 +3,7 @@ services:
         public: true
 
     cartest.repository:
-        class: Modules\Car\Entity\Repository\CarTestRepository
+        class: PrestaShop\Module\Car\Entity\Repository\CarTestRepository
         factory: ['@doctrine.orm.default_entity_manager', getRepository]
         arguments:
-            - Modules\Car\Entity\CarTest
+            - PrestaShop\Module\Car\Entity\CarTest

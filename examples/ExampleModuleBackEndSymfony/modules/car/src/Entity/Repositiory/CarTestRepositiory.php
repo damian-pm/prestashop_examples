@@ -1,6 +1,6 @@
 <?php
 
-namespace Modules\Car\Repository;
+namespace PrestaShop\Module\Car\Repository;
 
 /**
  * AttributeGroupLangRepository.

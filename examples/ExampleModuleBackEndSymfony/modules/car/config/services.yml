@@ -3,8 +3,7 @@ services:
         public: true
 
     your.service:
-        class: Modules\Car\Service\YourService
+        class: PrestaShop\Module\Car\Service\YourService
         arguments:
             - "My custom message"
         public: true
-

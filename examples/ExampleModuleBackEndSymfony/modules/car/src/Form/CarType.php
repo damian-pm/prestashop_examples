@@ -1,8 +1,8 @@
 <?php
 
-namespace Modules\Car\Form;
+namespace PrestaShop\Module\Car\Form;
 
-use Modules\Car\Entity\CarTest;
+use PrestaShop\Module\Car\Entity\CarTest;
 use Symfony\Component\Form\AbstractType;
 use Symfony\Component\Form\Extension\Core\Type\ChoiceType;
 use Symfony\Component\Form\Extension\Core\Type\SubmitType;
@@ -30,7 +30,7 @@ class CarType extends AbstractType
                 ]
             ])
         ;
-        
+
     }
     public function configureOptions(OptionsResolver $resolver)
     {
