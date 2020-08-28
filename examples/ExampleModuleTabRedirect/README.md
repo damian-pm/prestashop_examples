@@ -22,3 +22,10 @@ You will see here:
   # refresh mapped namespace
   composer dump-autoload -o
   ```
+### Details
+Position tab in menu you can chooce pasing name of class for example 'AdminParentCustomer'
+```php
+// file: car.php
+// AdminParentCustomer, AdminParentOrders, AdminParentShipping, AdminParentModules, AdminParentPreferences etc.
+$tab->id_parent = (int) Tab::getIdFromClassName('AdminParentCustomer');
+```
