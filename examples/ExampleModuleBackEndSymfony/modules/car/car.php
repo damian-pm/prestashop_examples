@@ -26,7 +26,6 @@ class Car extends Module
     }
 
     public function getContent() {
-
         header('Location: /admin-dev/modules/test');
     }
 

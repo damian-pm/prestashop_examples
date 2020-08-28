@@ -1,0 +1,7 @@
+admin_link_block_car:
+    path: /test
+    methods: [GET, POST]
+    defaults:
+        _controller: Modules\Car\Controller\DemoController::demoAction
+        _legacy_controller: Demo
+        _legacy_link: Demo
