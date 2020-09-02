@@ -17,3 +17,4 @@ Choose one of example and install step by step them. I show here how to create p
 
 Tutorials:
 * [knowband tutorial](https://www.knowband.com/blog/pl/prestashop-poradniki/)
+* console list: https://devdocs.prestashop.com/1.7/development/components/console/
