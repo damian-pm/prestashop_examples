@@ -12,7 +12,8 @@ Choose one of example and install step by step them. I show here how to create p
 * [Example - Simple Webservice Api (Frontend) ](https://github.com/damian-pm/prestashop_examples/tree/master/examples/ExampleWebserviceApi)
 * [Example - Api Beer (Backend) ](https://github.com/damian-pm/prestashop_examples/tree/master/examples/ExampleApiAdmin)
 * [Example - Module with tab and redirect to controller](https://github.com/damian-pm/prestashop_examples/tree/master/examples/ExampleModuleTabRedirect)
-* [Example - Email Theme](https://github.com/damian-pm/prestashop_examples/tree/master/examples/ExampleEmailTheme)
+* [Example - Email Theme in /mails](https://github.com/damian-pm/prestashop_examples/tree/master/examples/ExampleEmailTheme)
+* [Example - Email Theme in Custom Theme (themes/)](https://github.com/damian-pm/prestashop_examples/tree/master/examples/ExampleCustomEmailTheme)
 
 Tutorials:
 * [knowband tutorial](https://www.knowband.com/blog/pl/prestashop-poradniki/)
