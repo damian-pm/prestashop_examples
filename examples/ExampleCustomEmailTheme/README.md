@@ -1,4 +1,4 @@
-# Example - Theme Email in Module
+# Example - Theme Email in Custom Theme (/themes)
 This theme is like classic example theme.
 
 ### Install
