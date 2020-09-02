@@ -12,7 +12,9 @@ You have 2 options to create email theme in module:
     PrestaShop can generate theme in `Admin Panel > Design > Email Theme`.
     * Slect theme, are only dirs from `/mails`
     * select lang
+    
     etc.
+    
     click 'generate' and vua la you have new email theme in `themes/`
 
 ### Error - Bug 'CssToAttributeConverter' - how fix it
