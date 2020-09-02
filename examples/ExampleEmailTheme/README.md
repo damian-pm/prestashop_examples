@@ -1,6 +1,8 @@
 # Example Email Theme - Basic - Modern Sea - /mails
 This is the same theme like classic.
 
+**If you want to send emails, you have to install server SMTP. And configurate it in file ``/app/config/parameters.php``**
+
 ### Install
 1. Copy example to the root project.
 

@@ -1,6 +1,8 @@
 # Example - Theme Email in Custom Theme (/themes)
 This theme is like classic example theme.
 
+**If you want to send emails, you have to install server SMTP. And configurate it in file ``/app/config/parameters.php``**
+
 ### Install
 You have 2 options to create email theme in module:
 1. Just copy example to the root project
@@ -12,9 +14,9 @@ You have 2 options to create email theme in module:
     PrestaShop can generate theme in `Admin Panel > Design > Email Theme`.
     * Slect theme, are only dirs from `/mails`
     * select lang
-    
+
     etc.
-    
+
     click 'generate' and vua la you have new email theme in `themes/`
 
 ### Error - Bug 'CssToAttributeConverter' - how fix it
