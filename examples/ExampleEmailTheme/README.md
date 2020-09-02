@@ -1,4 +1,4 @@
-# Example Email Theme - Basic - Modern Sea
+# Example Email Theme - Basic - Modern Sea - /mails
 This is the same theme like classic.
 
 ### Install
