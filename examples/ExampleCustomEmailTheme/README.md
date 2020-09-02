@@ -4,7 +4,7 @@ This theme is like classic example theme.
 **If you want to send emails, you have to install server SMTP. And configurate it in file ``/app/config/parameters.php``**
 
 ### Install
-You have 3 options to create email theme in module:
+You have 2 options to create email theme in module:
 1. Just copy example to the root project
 
     or
