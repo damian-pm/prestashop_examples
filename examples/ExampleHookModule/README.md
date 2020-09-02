@@ -10,7 +10,7 @@ What you will see:
 1. Register new module
       ```bash
       php bin/console prestashop:module install callme
-      # or reset existed module
+      # or reset existing module
       php bin/console prestashop:module reset callme
       ```
 
