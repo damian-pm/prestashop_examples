@@ -14,6 +14,7 @@ Choose one of example and install step by step them. I show here how to create p
 * [Example - Module with tab and redirect to controller](https://github.com/damian-pm/prestashop_examples/tree/master/examples/ExampleModuleTabRedirect)
 * [Example - Email Theme in /mails](https://github.com/damian-pm/prestashop_examples/tree/master/examples/ExampleEmailTheme)
 * [Example - Email Theme in Custom Theme (themes/)](https://github.com/damian-pm/prestashop_examples/tree/master/examples/ExampleCustomEmailTheme)
+* [Example - Hook in module](https://github.com/damian-pm/prestashop_examples/tree/master/examples/ExampleHookModule)
 
 Tutorials:
 * [knowband tutorial](https://www.knowband.com/blog/pl/prestashop-poradniki/)

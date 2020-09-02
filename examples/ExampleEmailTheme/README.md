@@ -13,3 +13,9 @@ You can change new theme in `Admin Panel > Design > Email Theme`
 or simple by url:
 
 http://presta.test/admin-dev/index.php/improve/design/mail_theme
+
+### Test
+Send email via console:
+```bash
+php bin/console swiftmailer:email:send
+```
