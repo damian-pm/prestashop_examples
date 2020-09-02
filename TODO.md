@@ -4,7 +4,7 @@
 * Jak zrobić encje w doctrine czy tylko recznie się da?
 * jak zrobic widget
 * jak zrobic główne menu SELL czyli kategoria menu
-
+* jak dodawac i edytowac reklamy
 
 
 
