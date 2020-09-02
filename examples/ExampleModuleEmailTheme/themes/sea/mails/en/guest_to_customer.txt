@@ -1,0 +1,13 @@
+Abc
+
+[{shop_name}]({shop_url})
+Hi {firstname} {lastname},
+
+Your guest account for {shop_name} has been transformed into a customer account.
+
+E-mail address: {email}
+
+Please be careful when sharing these login details with others.
+You can access your customer account on our shop: {shop_url}
+
+[{shop_name}]({shop_url}) powered by [PrestaShop™](https://www.prestashop.com/?utm_source=marchandprestashop&utm_medium=e-mail=utm_campaign=footer_1-7)

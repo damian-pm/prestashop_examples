@@ -1,0 +1,12 @@
+Abc
+
+[{shop_name}]({shop_url})
+Hi,
+
+The remaining stock is now less than the specified minimum of {last_qty}.
+
+Remaining stock: {qty}
+
+Replenish your inventory, go to the Catalog > Stocks section of your back office to manage your stock.
+
+[{shop_name}]({shop_url}) powered by [PrestaShop™](https://www.prestashop.com/?utm_source=marchandprestashop&utm_medium=e-mail=utm_campaign=footer_1-7)

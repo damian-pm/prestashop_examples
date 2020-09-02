@@ -1,0 +1,39 @@
+[{shop_name}]({shop_url})
+Hi {firstname} {lastname},
+Thank you for shopping with {shop_name}!
+
+Order: {order_name} Placed on {date}
+
+Payment: {payment}
+
+Reference	Product	Unit price	Quantity	Total price  {products_txt} {discounts_txt}
+
+Products
+{total_products}
+
+Discounts
+{total_discounts}
+
+Gift-wrapping
+{total_wrapping}
+
+Shipping
+{total_shipping}
+
+Total Tax paid
+{total_tax_paid}
+
+Total paid
+{total_paid}
+
+Carrier: {carrier}
+
+Payment: {payment}
+
+{delivery_block_txt}
+{invoice_block_txt}
+
+You can review your order and download your invoice from the ["Order history"]({history_url}) section of your customer account by clicking ["My account"]({my_account_url}) on our shop.
+If you have a guest account, you can follow your order via the ["Guest Tracking"]({guest_tracking_url}?id_order={order_name}) section on our shop.
+
+[{shop_name}]({shop_url}) powered by [PrestaShop™](https://www.prestashop.com/?utm_source=marchandprestashop&utm_medium=e-mail=utm_campaign=footer_1-7)

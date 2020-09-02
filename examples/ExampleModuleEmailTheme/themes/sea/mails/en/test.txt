@@ -1,0 +1,10 @@
+Abc
+
+[{shop_name}]({shop_url})
+Hello
+
+This is a test e-mail from your shop..
+
+If you can read this, the test was successful!.
+
+[{shop_name}]({shop_url}) powered by [PrestaShop™](https://www.prestashop.com/?utm_source=marchandprestashop&utm_medium=e-mail=utm_campaign=footer_1-7)
