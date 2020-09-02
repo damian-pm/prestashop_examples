@@ -5,7 +5,7 @@
 * jak zrobic widget
 * jak zrobic główne menu SELL czyli kategoria menu
 * jak dodawac i edytowac reklamy
-
+* jak dodac modul do hooka który będzie wyświetlał np. tekst lub obrazek tutaj link: http://presta.test/admin-dev/index.php/improve/design/modules/positions/?_token=bE263NHrdceAg6sTYaoyu3gCHH8b0N3n8xUwiuHAi7E
 
 
 ogarniete:
