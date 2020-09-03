@@ -10,7 +10,19 @@
 * poznac dobrze dzialanie themes czyli podpinanie js i css oraz strukture
 * filtrowanie produktow jakis prosty controller zrobic
 
+
+wedkarski
+- menu leve jak w allegro
+- menu lewe zostaje
+- menu zostaje rozbudowane lewe
+- nas - kopia danych
+- sciezka linka kategorii
+- filtrowani jak allegro po lewej tez bedzie
+- wyswietlany produkt - przy kilku wersjach produktu lista (i min fotki ) po najechaniu ma wyswietlac zdjecie lub powiekszone
+
+
 ogarniete:
 * jak generowac email
 * jak zrobic theme email
 * dodac w exampleAllegro composer.json który złapie przestrzen nazw w tej chwili wymaga grzebania w innych plikach poza modules/
+
