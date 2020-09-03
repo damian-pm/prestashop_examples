@@ -16,9 +16,8 @@
 To compile new changes from js, for example you added code in file_dev/js/theme.js run:
 ```bash
 cd /themes/sea/_dev
-```
-This command will build style scss. In primary version PS this dont work with js
-```bash
+
+# This command will build style scss. In primary version PS this dont work with js
 npm run build
 ```
 To **compile js files** add new command for npm
