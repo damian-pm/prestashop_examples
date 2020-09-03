@@ -12,6 +12,7 @@
 
 ### Details
 **Changing code js or scss**
+
 To compile new changes from js, for example you added code in file_dev/js/theme.js run:
 ```bash
 cd /themes/sea/_dev
