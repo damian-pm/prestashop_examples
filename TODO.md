@@ -7,8 +7,22 @@
 * jak dodawac i edytowac reklamy
 * jak dodac modul do hooka który będzie wyświetlał np. tekst lub obrazek tutaj link: http://presta.test/admin-dev/index.php/improve/design/modules/positions/?_token=bE263NHrdceAg6sTYaoyu3gCHH8b0N3n8xUwiuHAi7E
 * instalacja bundle assets- o co chodzi generuje js,css image?
+* poznac dobrze dzialanie themes czyli podpinanie js i css oraz strukture
+* filtrowanie produktow jakis prosty controller zrobic
+
+
+wedkarski
+- menu leve jak w allegro
+- menu lewe zostaje
+- menu zostaje rozbudowane lewe
+- nas - kopia danych
+- sciezka linka kategorii
+- filtrowani jak allegro po lewej tez bedzie
+- wyswietlany produkt - przy kilku wersjach produktu lista (i min fotki ) po najechaniu ma wyswietlac zdjecie lub powiekszone
+
 
 ogarniete:
 * jak generowac email
 * jak zrobic theme email
 * dodac w exampleAllegro composer.json który złapie przestrzen nazw w tej chwili wymaga grzebania w innych plikach poza modules/
+
