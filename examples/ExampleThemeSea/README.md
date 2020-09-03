@@ -2,11 +2,32 @@
 
 ### Install
 
-1. Copy/past `/examples/ExampleThemeSea` to your root project directory.
-1. Install node packages runing npm:
+1. Copy `/examples/ExampleThemeSea` to your root project dir.
+1. Install package npm if node_modules not exists:
   ```bash
-  cd themes/sea
-  npm install
-  npm run webpack
+  cd themes/sea/_dev
+  npm i
   ```
-1. After that you can swtich your theme in 'themes module' `Design > Theme & Logo` under this page you will see your new theme. Switch it and enjoy.
+1. After that you can swtich your theme in `Design > Theme & Logo` under this page you will see your new theme. Switch it and thats all.
+
+### Details
+**Changing code js or scss**
+To compile new changes from js, for example you added code in file_dev/js/theme.js run:
+```bash
+cd /themes/sea/_dev
+```
+This command will build style scss. In primary version PS this dont work with js
+```bash
+npm run build
+```
+To **compile js files** add new command for npm
+```bash
+# ../_dev/package.json
+"scripts": {
+  "build-wb": "webpack --progress --colors --debug --display-chunks"
+},
+
+npm run build-wb
+# OR watch for real-time changing
+npm run watch
+```
