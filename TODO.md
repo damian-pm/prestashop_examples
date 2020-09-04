@@ -9,6 +9,12 @@
 * instalacja bundle assets- o co chodzi generuje js,css image?
 * poznac dobrze dzialanie themes czyli podpinanie js i css oraz strukture
 * filtrowanie produktow jakis prosty controller zrobic
+* jak dodać do smarty funkcje która będzie robiła ładnego var_dump-a
+    ```smarty
+        <pre>
+    {$menu|@print_r} 
+    </pre>
+    ```
 
 
 wedkarski
