@@ -15,7 +15,7 @@
     {$menu|@print_r} 
     </pre>
     ```
-
+* do zrobienia hookmanager - ten prowizoryczny nie dokonca dziala nama przy dodawaniu nie dodaje i nie ma edycji
 
 wedkarski
 - menu leve jak w allegro
