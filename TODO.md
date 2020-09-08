@@ -28,6 +28,9 @@
                 }
             }
         ```
+ * stworzyc hook ktory będzie definiował modul oraz wyswietlal szablon z themes
+        
+        
 wedkarski
 - menu leve jak w allegro
 - menu lewe zostaje
