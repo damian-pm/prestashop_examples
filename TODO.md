@@ -28,7 +28,7 @@
                 }
             }
         ```
- * stworzyc hook ktory będzie definiował modul oraz wyswietlal szablon z themes
+ * stworzyc hook ktory będzie definiował modul oraz wyswietlal szablon z themes. To chyba widget
         
         
 wedkarski
