@@ -16,3 +16,10 @@
       }
   ```
 </details>
+
+<details>
+  <summary>Var Dump in Smarty Template</summary>
+  ```smarty
+       <pre>{$menu|@print_r}</pre>
+  ```
+</details>
