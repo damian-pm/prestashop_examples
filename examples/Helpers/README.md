@@ -16,11 +16,12 @@
       }
   ```
   ```js
-  // Optionas will toggle debugger
+  // OPTIONAL - will toggle debugger results
       $(document).on('click', '#prestashop_profiling a', (e) => {
         $(e.target).closest('.row').find('.table-condensed ').toggle();
     });
-    ```
+   ```
+    
 </details>
 
 <details>
