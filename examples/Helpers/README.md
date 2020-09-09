@@ -15,6 +15,12 @@
           }
       }
   ```
+  ```js
+  // Optionas will toggle debugger
+      $(document).on('click', '#prestashop_profiling a', (e) => {
+        $(e.target).closest('.row').find('.table-condensed ').toggle();
+    });
+    ```
 </details>
 
 <details>
