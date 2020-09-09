@@ -19,7 +19,8 @@
 
 <details>
   <summary>Var Dump in Smarty Template</summary>
-  ```smarty
-       <pre>{$menu|@print_r}</pre>
+  
+  ```html
+     <pre>{$menu|@print_r}</pre>
   ```
 </details>
