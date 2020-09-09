@@ -1,0 +1,38 @@
+Abc
+
+[{shop_name}]({shop_url})
+Gratulacje!
+Zostało złożone nowe zamówienie w {shop_name} przez następującego klienta: {firstname}{lastname} ({email})
+
+Zamówienie: {order_name} Złożone w {date}
+
+Płatność: {payment}
+
+Indeks	Produkt	Cena jednostkowa	Ilość	Cena końcowa    {items}
+
+Produkty
+{total_products}
+
+Rabaty
+{total_discounts}
+
+Pakowanie prezentowe
+{total_wrapping}
+
+Wysyłka
+{total_shipping}
+
+Całkowity zapłacony podatek
+{total_tax_paid}
+
+Zapłacono w sumie
+{total_paid}
+
+{carrier}
+
+{delivery_block_html}
+{invoice_block_html}
+
+{message}
+
+[{shop_name}]({shop_url}) obsługiwany przez [PrestaShop ™](https://www.prestashop.com/?utm_source=marchandprestashop&utm_medium=e-mail=utm_campaign=footer_1-7)

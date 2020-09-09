@@ -1,0 +1,12 @@
+Abc
+
+[{shop_name}]({shop_url})
+Witaj,
+
+Pozostała ilość zapasów jest mniejsza niż ustawiona wartość, która wynosi: {last_qty}.
+
+Pozostałe zapasy: {qty}
+
+Uzupełnij zapasy, przejdź do sekcji Katalog > Zapasy swojego panelu administracyjnego, aby zarządzać zapasami.
+
+[{shop_name}]({shop_url}) obsługiwany przez [PrestaShop ™](https://www.prestashop.com/?utm_source=marchandprestashop&utm_medium=e-mail=utm_campaign=footer_1-7)

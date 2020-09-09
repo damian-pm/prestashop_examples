@@ -1,0 +1,6 @@
+@media all and (min-width: 992px) {
+    .navbar{ padding-top: 0; padding-bottom: 0; }
+    .navbar .has-megamenu{position:static!important;}
+    .navbar .megamenu{left:0; right:0; width:100%; padding:20px; }
+    .navbar .nav-link{ padding-top:1rem; padding-bottom:1rem;  }
+}

@@ -1,0 +1,15 @@
+Abc
+
+[{shop_name}]({shop_url})
+Witaj {firstname} {lastname},
+
+Zauważyliśmy, że podczas Twojej ostatniej wizyty w {shop_name} nie dokończyłeś zamówienia, które rozpocząłeś.
+
+Twój koszyk został zapisany, możesz wznowić zamówienie odwiedzając nasz sklep: {shop_url}
+
+Jako zachętę możemy dać Ci {amount}% rabatu na następne zamówienie! Ta oferta jest ważna przez {days} dni, więc nie trać czasu!
+
+Oto Twój kupon: {voucher_num}
+Wprowadź ten kod w koszyku, aby uzyskać rabat.
+
+[{shop_name}]({shop_url}) obsługiwany przez [PrestaShop ™](https://www.prestashop.com/?utm_source=marchandprestashop&utm_medium=e-mail=utm_campaign=footer_1-7)

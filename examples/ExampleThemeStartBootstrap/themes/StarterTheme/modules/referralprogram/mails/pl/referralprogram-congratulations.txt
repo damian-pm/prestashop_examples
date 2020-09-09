@@ -1,0 +1,12 @@
+Abc
+
+[{shop_name}]({shop_url})
+Gratulacje!
+
+Twój polecony przyjaciel {sponsored_firstname} {sponsored_lastname} złożył swoje pierwsze zamówienie na [{shop_name}]({shop_url})!
+
+Z przyjemnością oferujemy Ci kupon o wartości {discount_display} (kupon # {discount_name}), którego możesz użyć przy następnym zamówieniu.
+
+Z poważaniem,
+
+[{shop_name}]({shop_url}) obsługiwany przez [PrestaShop ™](https://www.prestashop.com/?utm_source=marchandprestashop&utm_medium=e-mail=utm_campaign=footer_1-7)

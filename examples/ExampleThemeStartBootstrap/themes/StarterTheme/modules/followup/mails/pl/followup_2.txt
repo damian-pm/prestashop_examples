@@ -1,0 +1,13 @@
+Abc
+
+[{shop_name}]({shop_url})
+Witaj {firstname} {lastname},
+Dziękujemy za złożenie zamówienia w {shop_name}.
+
+W ramach podziękowania, chcemy dać Ci {amount}% rabatu na następne zamówienie! Ta oferta jest ważna przez {days} dni, więc nie trać czasu!
+
+Oto Twój kupon: {voucher_num}
+
+Wprowadź ten kod w koszyku, aby uzyskać rabat.
+
+[{shop_name}]({shop_url}) obsługiwany przez [PrestaShop ™](https://www.prestashop.com/?utm_source=marchandprestashop&utm_medium=e-mail=utm_campaign=footer_1-7)

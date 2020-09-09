@@ -1,0 +1,11 @@
+Abc
+
+[{shop_name}]({shop_url})
+Witaj,
+
+Ten element jest ponownie w magazynach.
+
+Możesz przejść na stronę produktu klikając na link: [{product}]({product_link})
+Można zamówić już teraz w naszym sklepie on-line.
+
+[{shop_name}]({shop_url}) obsługiwany przez [PrestaShop ™](https://www.prestashop.com/?utm_source=marchandprestashop&utm_medium=e-mail=utm_campaign=footer_1-7)

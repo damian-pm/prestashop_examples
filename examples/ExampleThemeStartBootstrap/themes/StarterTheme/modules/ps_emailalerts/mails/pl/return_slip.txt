@@ -1,0 +1,27 @@
+Abc
+
+[{shop_name}]({shop_url})
+Witaj,
+
+Odebrano nowe żądanie zwrotu do {shop_name}.
+
+Szczegóły zwrotu
+
+Zamówienie: {order_name} Złożone w {date}
+Klient: {firstname} {lastname}, ({email})
+
+Indeks	Produkt	Ilość    {items}
+
+Adres dostawy
+
+{delivery_block_html}
+
+Adres do faktury
+
+{invoice_block_html}
+
+Wiadomość klienta:
+
+{message}
+
+[{shop_name}]({shop_url}) obsługiwany przez [PrestaShop ™](https://www.prestashop.com/?utm_source=marchandprestashop&utm_medium=e-mail=utm_campaign=footer_1-7)

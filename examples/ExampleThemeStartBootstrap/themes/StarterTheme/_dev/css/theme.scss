@@ -1,0 +1,67 @@
+@import "~bootstrap/scss/bootstrap";
+@import "./megamenu.scss";
+@import "./megafooter.scss";
+@import "./images-product.scss";
+$body-background-color: #fefefe;
+
+body {
+  background: $body-background-color;
+}
+
+#prestashop_profiling  {
+  background-color: #fff4d3;
+}
+
+.margin-s {
+  margin:3px;
+}
+.margin-m {
+  margin:15px;
+}
+.margin-l {
+  margin:25px;
+}
+.block-contact {
+  color: white;
+}
+/*
+ * Footer
+ */
+ .blog-footer {
+  padding: 2.5rem 0;
+  color: #999;
+  text-align: center;
+  background-color: #f9f9f9;
+  border-top: .05rem solid #e5e5e5;
+}
+.blog-footer p:last-child {
+  margin-bottom: 0;
+}
+.car-product-box {
+  width: 20em;
+  margin:5px;
+}
+
+section.facet.clearfix {
+  padding: 0;
+}
+
+
+.icon-size-s {
+  width:10px;
+}
+.icon-size-m {
+  width:15px;
+}
+.icon-size-l {
+  width:25px;
+
+}
+
+.list-group-highlight:hover {
+  background-color:#d5e9ff;
+}
+
+#product .product-information {
+  width:35%;
+}

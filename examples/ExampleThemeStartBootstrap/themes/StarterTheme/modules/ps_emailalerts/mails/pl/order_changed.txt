@@ -1,0 +1,11 @@
+Abc
+
+[{shop_name}]({shop_url})
+Witaj {firstname} {lastname},
+
+Twoje zamówienie o numerze {order_name} zostało zmodyfikowane.
+
+Możesz obejrzeć swoje zamówienie i pobrać fakturę na stronie ["Historia zamówień"]({history_url}) logując się na swoje konto klienta za pomocą strony ["Moje konto"]({my_account_url}) w naszym sklepie.
+Jeśli posiadasz konto gościa, możesz śledzić swoje zamówienie w sekcji ["Śledzenie zamówienia"]({guest_tracking_url}?id_order={order_name}).
+
+[{shop_name}]({shop_url}) obsługiwany przez [PrestaShop ™](https://www.prestashop.com/?utm_source=marchandprestashop&utm_medium=e-mail=utm_campaign=footer_1-7)
