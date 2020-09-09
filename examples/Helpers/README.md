@@ -2,7 +2,7 @@
 
 
 <details>
-  <summary>Turn on **smarty debugger** (front page)</summary>
+  <summary>Turn on Smarty Debugger (front)</summary>
 
   ```php
       //file: /var/www/presta_test/config/defines.inc.php
