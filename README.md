@@ -14,7 +14,7 @@ Choose one of example and install step by step them. I show here how to create p
     * [Example - Email Theme in Custom Theme (themes/)](https://github.com/damian-pm/prestashop_examples/tree/master/examples/ExampleCustomEmailTheme)
     * [Example - Basic theme classic/sea](https://github.com/damian-pm/prestashop_examples/tree/master/examples/ExampleThemeSea)
 * #### Helper
-    * [Helper - tips](https://github.com/damian-pm/prestashop_examples/tree/master/examples/Helper)
+    * [Helper - tips](https://github.com/damian-pm/prestashop_examples/tree/master/examples/Helpers)
 * #### misc.
     * [Example - Front-controller (Page)](https://github.com/damian-pm/prestashop_examples/tree/master/examples/ExampleFrontController)
     * [Example - Backend-controller (Admin Panel) (Symfony)](https://github.com/damian-pm/prestashop_examples/tree/master/examples/ExampleBackEndController)
