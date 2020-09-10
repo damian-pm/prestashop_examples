@@ -1,0 +1,23 @@
+{
+  "name": "simple-calendar",
+  "version": "0.0.1",
+  "description": "A jquery plugin to display a responsive calendar",
+  "main": "dist/simple-calendar.min.js",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "keywords": [
+    "image"
+  ],
+  "author": "Benoit Rospars (@benuuts)",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-concat": "*",
+    "gulp-plumber": "^1.2.1",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-uglify": "^3.0.2",
+    "node-sass": "^4.13.1"
+  }
+}

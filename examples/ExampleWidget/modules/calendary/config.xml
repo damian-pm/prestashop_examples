@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+	<name>calendary</name>
+	<displayName><![CDATA[Calendary]]></displayName>
+	<version><![CDATA[2.0.1]]></version>
+	<description><![CDATA[Simple calendary.]]></description>
+	<author><![CDATA[Damian]]></author>
+	<is_configurable>0</is_configurable>
+	<need_instance>0</need_instance>
+	<limited_countries></limited_countries>
+</module>
