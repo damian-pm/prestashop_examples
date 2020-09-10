@@ -11,7 +11,7 @@ You will see here:
 1. Install vendors from module:
   ```bash
   cd modules/car
-  # generate vendor
+  # generate vendor without vendors namespace will not be  visible
   composer i
   ```
 1. Execute command:
