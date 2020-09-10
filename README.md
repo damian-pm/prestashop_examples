@@ -1,6 +1,6 @@
 # Prestashop 1.7.6.7 - Examples
 
-Choose one of example and install step by step them. I show here how to create prepared controllers, modules, hooks etc. in PrestaShop version 1.7.6.x
+Choose one of the example and install step by step them. I show here how to create prepared controllers, modules, hooks etc. in PrestaShop version 1.7.6.x
 * #### Api
     * [Example - Simple Webservice Api (Frontend) ](https://github.com/damian-pm/prestashop_examples/tree/master/examples/ExampleWebserviceApi)
     * [Example - Api Beer (Backend) ](https://github.com/damian-pm/prestashop_examples/tree/master/examples/ExampleApiAdmin)
