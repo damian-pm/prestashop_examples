@@ -16,7 +16,8 @@ Choose one of example and install step by step them. I show here how to create p
     * [Example - Basic theme classic/sea](https://github.com/damian-pm/prestashop_examples/tree/master/examples/ExampleThemeSea)
     * [Example - Theme Start with Bootstrap 4](https://github.com/damian-pm/prestashop_examples/tree/master/examples/ExampleThemeStartBootstrap)
 * #### Helper
-    * [Helper - tips](https://github.com/damian-pm/prestashop_examples/tree/master/examples/Helpers)
+    * [Tips](https://github.com/damian-pm/prestashop_examples/tree/master/examples/Helpers)
+    * [Doctrine entity](https://github.com/damian-pm/prestashop_examples/tree/master/examples/Helpers/DoctrineHelper.md)
 * #### misc.
     * [Example - Front-controller (Page)](https://github.com/damian-pm/prestashop_examples/tree/master/examples/ExampleFrontController)
     * [Example - Backend-controller (Admin Panel) (Symfony)](https://github.com/damian-pm/prestashop_examples/tree/master/examples/ExampleBackEndController)
