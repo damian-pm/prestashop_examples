@@ -15,6 +15,11 @@ private $id;
 private $title;
 ```
 ```php
+/** @Column(type="integer") */
+private $id;
+```
+
+```php
 /**
  * @ORM\Column(type="text", nullable=true)
  */
