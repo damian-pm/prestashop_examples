@@ -1,4 +1,4 @@
-# Doctrine helper - createing entity
+# Doctrine helper - creating entity
 
 ```php
 /**
