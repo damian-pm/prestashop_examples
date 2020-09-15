@@ -1,5 +1,6 @@
 # Module HooksManager
 Fully working modul to manage hooks you can delete each hook from list, edit and add new.
+Writed fully in Symfony.
 
 ### Install
 #### Register manually module
