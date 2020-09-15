@@ -12,4 +12,5 @@ Fully working modul to manage hooks you can delete each hook from list, edit and
 Simply go to ``Modules > Module Manager`` and upload there ``hooksmanager.zip`` from this example.
 
 ### Access
-You can access to module from left menu ``Design > Hooks Manager`` \ or through ``Modules > Module manager`` and in search input find ``hooks manager``
+You can access to module from left menu ``Design > Hooks Manager`` \
+or through ``Modules > Module manager`` and in search input find ``hooks manager``
