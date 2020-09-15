@@ -13,7 +13,7 @@
 * filtrowanie produktow jakis prosty controller zrobic
 * jak dodać do smarty funkcje która będzie robiła ładnego var_dump-a
 * zrobic console command
-
+* dodac modul ktory bedzie podpinany do kilku hooków np. displayHome i będzie wyświetlał chartjs w zaleznosci od rozmiaru hooka (czy tam jego pozycji)
         
 wedkarski
 - menu leve jak w allegro
