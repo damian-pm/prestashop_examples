@@ -1,0 +1,92 @@
+{% extends '@PrestaShop/Admin/layout.html.twig' %}
+
+{% block javascripts %}
+  {{ parent() }}
+    <script src="{{ asset('../modules/hooksmanager/src/Resources/js/hooksmanager.js') }}"></script>
+{% endblock %}
+
+{% block stylesheets %}
+{{ parent() }}
+
+{# TODO: nie działa #}
+{# <link rel="stylesheet" href="{{ asset('../modules/hooksmanager/src/Resources/css/hooksmanager.css') }}"> #}
+
+{% endblock %}
+
+{% block content %}
+
+<div class="container" id="hooksmanager-box" data-url="{{url_controller}}"  data-urldel="{{url_controller_del}}" >
+  <div class="row">
+    <div class="col-12">
+
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-6">
+        <h3>
+        {% if mode == 'edit' %}
+        Edit new hook
+        {% else %}
+        Add new hook
+        {% endif %}
+        </h3>
+        {{form(form)}}
+    </div>
+    <div class="col-6" id="box-alert">
+      {% if alert %}
+      <div class="alert alert-{{alert.type}}" role="alert">
+        {{alert.message}}
+      </div>
+      {% endif %}
+      <a href="{{url_controller}}" class="btn btn-success">Add new hook</a>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-12">
+      <div class="input-group mb-3">
+        <input type="text" class="form-control"  id="search-hook-list" placeholder="Filter by text" aria-label="Filter by text" aria-describedby="basic-addon2">
+        <div class="input-group-append">
+          <button class="btn btn-outline-secondary" type="button">Search</button>
+        </div>
+      </div>
+    </div>
+    <div class="col-12">
+        <table class="table" id="table-hook-list">
+            <thead class="thead-dark">
+              <tr>
+                <th scope="col">id</th>
+                <th scope="col">name</th>
+                <th scope="col">title</th>
+                <th scope="col">description</th>
+                <th scope="col">visible</th>
+                <th scope="col">action</th>
+                </tr>
+            </thead>
+            <tbody>
+              {% for hook in hooks %}
+                <tr class="hook-row">
+                  <td class="hook-id">{{hook['id_hook']}}</td>
+                  <td class="hook-name">{{hook['name']}}</td>
+                  <td class="hook-title">{{hook['title']}}</td>
+                  <td class="hook-description">{{hook['description']}}</td>
+                  <td>
+                    {% if hook['position'] %}
+                    <span class="badge badge-success">On</span>
+                    {% else %}
+                    <span class="badge badge-secondary">Off</span>
+                    {% endif %}
+                  </td>
+                  <td>
+                    <div class="btn-group" role="group" aria-label="Basic example">
+                      <button type="button" class="btn btn-warning btn-edit">edit</button>
+                      <button type="button" class="btn btn-danger btn-del">delete</button>
+                    </div>
+                  </td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+  </div>
+</div>
+{% endblock %}
