@@ -14,7 +14,9 @@
 * jak dodać do smarty funkcje która będzie robiła ładnego var_dump-a
 * zrobic console command
 * dodac modul ktory bedzie podpinany do kilku hooków np. displayHome i będzie wyświetlał chartjs w zaleznosci od rozmiaru hooka (czy tam jego pozycji)
-        
+* jak zarejestrowac hook w module controller-a
+      w podstawowej wersji to registerHook('jakisHook')
+
 wedkarski
 - menu leve jak w allegro
 - menu lewe zostaje
