@@ -1,4 +1,6 @@
 # Example - Widget - Simple calendary
+Displayed calendary js
+
 Example is writen in JQuery
 Source: https://www.jqueryscript.net/time-clock/animated-event-calendar.html
 
