@@ -16,6 +16,7 @@
 * dodac modul ktory bedzie podpinany do kilku hooków np. displayHome i będzie wyświetlał chartjs w zaleznosci od rozmiaru hooka (czy tam jego pozycji)
 * jak zarejestrowac hook w module controller-a
       w podstawowej wersji to registerHook('jakisHook')
+* tlumaczenia jak wygenerowac pojedynczy tekst dla szablonu
 
 wedkarski
 - menu leve jak w allegro
