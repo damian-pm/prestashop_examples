@@ -1,0 +1,12 @@
+services:
+    _defaults:
+        public: true
+    prestashop.core.admin.hook.controller:
+        class: PrestaShop\Module\Hooksmanager\Controller\HooksmanagerController
+        arguments:
+            - '@prestashop.core.admin.hook.repository'
+    prestashop.core.admin.hook.repository:
+        class: PrestaShop\Module\Hooksmanager\Repository\HookRepository
+        arguments:
+            $connection: '@doctrine.dbal.default_connection'
+            $dbPrefix: '%database_prefix%'

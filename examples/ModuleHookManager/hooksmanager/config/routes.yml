@@ -1,0 +1,14 @@
+admin_link_block_hooksmanager:
+    path: /hooksmanager
+    methods: [GET, POST]
+    defaults:
+        _controller: PrestaShop\Module\Hooksmanager\Controller\HooksmanagerController::indexAction
+        _legacy_controller: Hooksmanager
+        _legacy_link: Hooksmanager
+admin_link_block_hooksmanager_del:
+    path: /hooksmanager/delete
+    methods: [POST]
+    defaults:
+        _controller: PrestaShop\Module\Hooksmanager\Controller\HooksmanagerController::deleteAction
+        _legacy_controller: Hooksmanager_del
+        _legacy_link: Hooksmanager_del
