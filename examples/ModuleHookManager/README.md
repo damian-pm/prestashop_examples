@@ -5,6 +5,8 @@ Writed fully in Symfony.
 ![alt text](screen.png "Title")
 ### Required
 * Bootstrap 4
+* JQuery-ui
+
 ### Install
 #### Register manually module
 1. Copy example to you project.
