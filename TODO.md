@@ -13,13 +13,10 @@
 * tlumaczenia jak wygenerowac pojedynczy tekst dla szablonu
 
 wedkarski
-- menu leve jak w allegro
-- menu lewe zostaje
-- menu zostaje rozbudowane lewe
+- menu leve jak w allegro czyli wyglad i filtry 
 - nas - kopia danych
 - sciezka linka kategorii
-- filtrowani jak allegro po lewej tez bedzie
-- wyswietlany produkt - przy kilku wersjach produktu lista (i min fotki ) po najechaniu ma wyswietlac zdjecie lub powiekszone
+- wyswietlany produkt - przy kilku wersjach produktu lista (i miniatury fotkek ) po najechaniu ma wyswietlac zdjecie male lub powiekszone
 
 
 ogarniete:
