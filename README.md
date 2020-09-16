@@ -1,17 +1,20 @@
 # Prestashop 1.7.6.7 - Examples
 
+
 Choose one of the example and install step by step them. I show here how to create prepared controllers, modules, hooks etc. in PrestaShop version 1.7.6.x
 * #### Api
     * [Example - Simple Webservice Api (Frontend) ](https://github.com/damian-pm/prestashop_examples/tree/master/examples/ExampleWebserviceApi)
     * [Example - Api Beer (Backend) ](https://github.com/damian-pm/prestashop_examples/tree/master/examples/ExampleApiAdmin)
 * #### Module
-    * [Example - Module backend (Smarty)](https://github.com/damian-pm/prestashop_examples/tree/master/examples/ExampleModule)
-    * [Example - Module backend (Smarty/Symfony)](https://github.com/damian-pm/prestashop_examples/tree/master/examples/ExampleModuleBackEndSymfony)
-    * [Example - Module with tab and redirect to controller](https://github.com/damian-pm/prestashop_examples/tree/master/examples/ExampleModuleTabRedirect)
-    * [Example - Hook in module](https://github.com/damian-pm/prestashop_examples/tree/master/examples/ExampleHookModule)
-    * [Example - Widget - Calendary](https://github.com/damian-pm/prestashop_examples/tree/master/examples/ExampleWidget)
-    * [Module HookManager - full working - edit/delete/add](https://github.com/damian-pm/prestashop_examples/tree/master/examples/ModuleHookManager)
-    * [Example - Module Chartjs - pinned to hooks](https://github.com/damian-pm/prestashop_examples/tree/master/examples/ExampleModuleChart)
+   * ##### Patterns
+       * [Example - Module backend (Smarty)](https://github.com/damian-pm/prestashop_examples/tree/master/examples/ExampleModule)
+       * [Example - Module backend (Smarty/Symfony)](https://github.com/damian-pm/prestashop_examples/tree/master/examples/ExampleModuleBackEndSymfony)
+       * [Example - Module with tab and redirect to controller](https://github.com/damian-pm/prestashop_examples/tree/master/examples/ExampleModuleTabRedirect)
+       * [Example - Hook in module](https://github.com/damian-pm/prestashop_examples/tree/master/examples/ExampleHookModule)
+       * [Example - Widget - Calendary](https://github.com/damian-pm/prestashop_examples/tree/master/examples/ExampleWidget)
+   * ##### Working modules
+       * [Module HookManager - full working - edit/delete/add](https://github.com/damian-pm/prestashop_examples/tree/master/examples/ModuleHookManager)
+       * [Example - Module Chartjs - pinned to hooks](https://github.com/damian-pm/prestashop_examples/tree/master/examples/ExampleModuleChart)
 * #### Theme
     * [Example - Email Theme in /mails](https://github.com/damian-pm/prestashop_examples/tree/master/examples/ExampleEmailTheme)
     * [Example - Email Theme in Custom Theme (themes/)](https://github.com/damian-pm/prestashop_examples/tree/master/examples/ExampleCustomEmailTheme)
