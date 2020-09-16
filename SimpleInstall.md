@@ -16,5 +16,5 @@
     ```
 ### From admin panel
 1. Zip module dir.
-    Like in this example :[ ModuleHookManager is prepared zip]()
+    Like in this example :[ ModuleHookManager is prepared zip](https://github.com/damian-pm/prestashop_examples/tree/master/examples/ModuleHookManager)
 1. Go to AdminPanel `` Modules > module manager`` find button 'upload a module' and add you module.zip from local disk
