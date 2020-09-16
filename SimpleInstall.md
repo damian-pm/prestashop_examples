@@ -17,4 +17,4 @@
 ### From admin panel
 1. Zip module dir.
     Like in this example :[ ModuleHookManager is prepared zip]()
-1. Go to AdminPanel `` Modules > module manager`` find button 'upload a module'
+1. Go to AdminPanel `` Modules > module manager`` find button 'upload a module' and add you module.zip from local disk
