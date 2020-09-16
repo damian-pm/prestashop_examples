@@ -12,9 +12,9 @@ Choose one of the example and install step by step them. I show here how to crea
        * [Example - Module with tab and redirect to controller](https://github.com/damian-pm/prestashop_examples/tree/master/examples/ExampleModuleTabRedirect)
        * [Example - Hook in module](https://github.com/damian-pm/prestashop_examples/tree/master/examples/ExampleHookModule)
        * [Example - Widget - Calendary](https://github.com/damian-pm/prestashop_examples/tree/master/examples/ExampleWidget)
+       * [Example - Module Chartjs - pinned to hooks](https://github.com/damian-pm/prestashop_examples/tree/master/examples/ExampleModuleChart)
    * ##### Working modules
        * [Module HookManager - full working - edit/delete/add](https://github.com/damian-pm/prestashop_examples/tree/master/examples/ModuleHookManager)
-       * [Example - Module Chartjs - pinned to hooks](https://github.com/damian-pm/prestashop_examples/tree/master/examples/ExampleModuleChart)
 * #### Theme
     * [Example - Email Theme in /mails](https://github.com/damian-pm/prestashop_examples/tree/master/examples/ExampleEmailTheme)
     * [Example - Email Theme in Custom Theme (themes/)](https://github.com/damian-pm/prestashop_examples/tree/master/examples/ExampleCustomEmailTheme)
