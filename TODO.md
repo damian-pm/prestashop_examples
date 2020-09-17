@@ -11,7 +11,14 @@
 * zrobic console command
 * jak zarejestrowac hook w module controller-a w podstawowej wersji to registerHook('jakisHook')
 * tlumaczenia jak wygenerowac pojedynczy tekst dla szablonu
-
+* do zrobienia modul translator tylko custom teksty:
+      * lista tlumaczen ()
+      * edycja tlumaczen (ps_translations) 
+      * usuwanie
+      * dodawanie nowych
+      * wyszukiwarka tlumaczen
+      * no i na jaki język przetlumaczyć
+      
 wedkarski
 - menu leve jak w allegro czyli wyglad i filtry 
 - nas - kopia danych
