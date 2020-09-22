@@ -1,0 +1,170 @@
+
+{% extends '@PrestaShop/Admin/layout.html.twig' %}
+
+{% block javascripts %}
+  {{ parent() }}
+    <script src="{{ asset('../modules/texttranslate/src/Resources/js/index.js') }}"></script>
+{% endblock %}
+
+{% block content %}
+{% for flashMessage in app.session.flashbag.get('alert') %}
+  <div class="alert alert-{{ flashMessage.type }}" role="alert">
+        {{ flashMessage.message }}
+  </div>
+{% endfor %}
+<div class="row">
+  <div class="col-md-6 col-sm-12">
+    <button class="btn btn-primary btn-toggle-card" data-box="tablang-box" type="button" >
+    Admin panel translations
+  </button>
+  <button class="btn btn-primary btn-toggle-card" data-box="translations-box" type="button"  >
+    Custom translations
+  </button>
+<br>
+<br>
+<p>
+  <a href="{{url_clear_cache}}" class="btn btn-warning"  rel="noopener noreferrer">CLEAR CACHE</a>
+  <button class="btn btn-secondary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+    Show examples
+  </button>
+</p>
+<div class="collapse" id="collapseExample">
+    <div class="card card-body">
+      <b><p class="bold">Watch out for naming domain. ShopThemeActions work only in themes/ <br>
+        Domains: EmailsBody, AdminNavigationFooter</p> </b>
+      In Smarty: {l s='Contact' d='Admin.Navigation.Footer'} <br>
+      In Twig: { {'Hi {firstname} {lastname},'|trans({}, 'Emails.Body')}}
+              
+  </div>
+</div>
+
+
+
+  </div>
+  <div class="col-md-3 col-sm-12">
+    <div class="form-group">
+      <label for="exampleFormControlSelect1">Show by word:</label>
+      <input type="text" id="filter-word" class="form-control" >
+    </div>
+  </div>
+  <div class="col-md-3 col-sm-12">
+    <div class="form-group">
+      <label for="exampleFormControlSelect1">Show by lang:</label>
+      <select class="form-control" id="filter-lang">
+        <option value="">Show all</option>
+      {% for lang in langs %}
+        <option value="{{lang.id}}">{{lang.name}}</option>
+        {% endfor %}
+      </select>
+    </div>
+  </div>
+</div>
+
+{{ form_start(form) }}
+  <div id="tablang-box" class="box-card show">
+    <div class="card card-body">
+        <div class="row">
+          <div class="col-12">
+            <h2>Admin panel translations</h2>
+          </div>
+        </div>
+          <div class="row">
+            <div class="col-sm-12">
+            <table class="table">
+              <tr>
+                <td>name</td>
+                <td>lang</td>
+              </tr>
+              {% for tag in form.tablangs %}
+                  <tr class="row-trans">
+                  <td>{{ form_widget(tag.name) }}</td>
+                  <td>{{ form_widget(tag.lang) }}</td>
+                </tr>
+              {% endfor %}
+            </table>
+            </div>
+          </div>
+    </div>
+  </div>
+  
+  <div id="translations-box" class="box-card">
+    <div class="card card-body">
+      <div class="row">
+          <div class="col-12">
+            <h2>Custom translations </h2>
+            <button type="button" class="btn btn-success btn-modal-trans-add" data-url="{{url_add_translation}}" data-toggle="modal" data-target="#myModal">Add or override</button>
+          </div>
+      </div>
+    </br>
+        <div class="row">
+          <div class="col-sm-12">
+            <table class="table">
+                <tr>
+                  <td>key</td>
+                  <td>lang</td>
+                  <td>translation</td>
+                  <td>domain</td>
+                  <td>theme</td>
+                  <td>action</td>
+                </tr>
+                {% for tag in form.translations %}
+                    <tr class="row-trans">
+                    <td>{{ form_widget(tag.key) }}</td>
+                    <td>{{ form_widget(tag.lang) }}</td>
+                    <td>{{ form_widget(tag.translation) }}</td>
+                    <td>{{ form_widget(tag.domain) }}</td>
+                    <td>{{ form_widget(tag.theme) }}</td>
+                    <td>
+                      <button data-url="{{url_delete_translation}}" data-id="{{tag.vars.data.id}}" class="btn btn-danger btn-delete-translation">Delete</button>
+                    </td>
+                  </tr>
+                {% endfor %}
+            </table>
+        </div>
+      </div>
+    </div>
+  </div>
+<div class="fixed-bottom" style="margin: 0 0 40px 50%;">
+  {{form_widget(form.save)}}
+</div>
+{{ form_end(form) }}
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModal" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="myModal">Add or override translation</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body"></div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal" tabindex="-1" role="dialog" id="yesNoModal">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Delete translation</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>Are you sure?</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" id="yes-delete-trans">Yes</button>
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">No</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% endblock %}

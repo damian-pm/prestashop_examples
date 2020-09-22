@@ -1,0 +1,17 @@
+<div class="row">
+<div class="col-12">
+    {% for flashMessage in app.session.flashbag.get('alert') %}
+  <div class="alert alert-{{ flashMessage.type }}" role="alert">
+        {{ flashMessage.message }}
+  </div>
+{% endfor %}
+</div>
+</div>
+{{form_start(form)}}
+  {{form_row(form.key)}}
+  {{form_row(form.lang)}}
+  {{form_row(form.translation)}}
+  {{form_row(form.domain)}}
+  {{form_row(form.theme)}}
+  {{form_row(form.save)}}
+{{form_end(form)}}

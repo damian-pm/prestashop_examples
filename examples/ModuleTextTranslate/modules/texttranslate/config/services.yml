@@ -1,0 +1,31 @@
+services:
+    _defaults:
+      public: true
+
+    texttranslate.service:
+        class: PrestaShop\Module\TextTranslate\Service\TranslateService
+        arguments:
+          - '@doctrine.orm.default_entity_manager'
+          - '@prestashop.core.admin.tablang.repository'
+          - '@prestashop.core.admin.translation.repository'
+          - '@prestashop.core.admin.lang.repository'
+          
+    prestashop.core.admin.tablang.repository:
+        class: PrestaShopBundle\Entity\Repository\TabLangRepository
+        factory: ['@doctrine.orm.default_entity_manager', getRepository]
+        arguments:
+            - PrestaShopBundle\Entity\TabLang
+
+    # texttranslate.controller:
+    #   class: PrestaShop\Module\TextTranslate\Controller\TranslateController
+    #   public: true
+    #   properties:
+    #       categoryRepository: texttranslate.service
+    # arguments:
+    #   - 'texttranslate.service'
+    # prestashop.core.api.category.controller:
+    #     class: PrestaShopBundle\Controller\Api\CategoryController
+    #     parent: prestashop.core.api.controller
+    #     public: true
+        # properties:
+        #     categoryRepository: "@prestashop.core.api.category.repository"

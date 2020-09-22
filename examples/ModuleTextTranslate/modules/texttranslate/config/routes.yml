@@ -1,0 +1,24 @@
+translator_text:
+  path: /translate # /modules/translate
+  methods: [GET, POST]
+  defaults:
+    _controller: 'PrestaShop\Module\TextTranslate\Controller\TranslateController::indexAction'
+    _legacy_controller: AdminTranslateAction
+    _legacy_link: AdminTranslateAction
+
+translator_text_add_translation:
+  path: /translate/add # /modules/translate/add
+  methods: [POST]
+  defaults:
+    _controller: 'PrestaShop\Module\TextTranslate\Controller\TranslateController::newTranslationAction'
+    _legacy_controller: AdminTranslateAddTransAction
+    _legacy_link: AdminTranslateAddTransAction
+
+translator_text_delete_translation:
+  path: /translate/delete # /modules/translate/del
+  methods: [POST, GET]
+  defaults:
+    _controller: 'PrestaShop\Module\TextTranslate\Controller\TranslateController::deleteTranslation'
+    _legacy_controller: AdminTranslateDeleteTransAction
+    _legacy_link: AdminTranslateDeleteTransAction
+
