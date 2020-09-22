@@ -80,7 +80,7 @@ class TranslateController extends FrameworkBundleAdminController
                 $ttService->addTranslation($data);
                 $session->getFlashBag()->add('alert', [
                     'type'      => 'success',
-                    'message'   => 'Updated success!'
+                    'message'   => 'Updated success! Refresh page to see new translation.'
                 ]);
             } catch (Exception $e) {
                 $session->getFlashBag()->add('alert', [

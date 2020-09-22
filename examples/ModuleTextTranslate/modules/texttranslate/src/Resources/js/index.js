@@ -124,6 +124,7 @@ var translations = {
           if (response.status === 'ok') {
             btnDel.closest('tr').remove();
             modalYN.modal('hide');
+            location.reload();
           } else {
             console.error(response.status)
           }

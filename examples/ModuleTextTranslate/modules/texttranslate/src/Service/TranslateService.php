@@ -61,11 +61,15 @@ class TranslateService {
      * @return void
      */
     public function update(TabLangCollection $tbCo){
+        dump($tbCo);
         foreach ($tbCo->getTablangs() as $tablang) {
-            $this->em->persist($tablang);
+                $this->em->persist($tablang);
         }
         foreach ($tbCo->getTranslations() as $trans) {
-            $this->em->persist($trans);
+            dump($tablang->getLang());
+            if ($tablang->getLang()) {
+                $this->em->persist($trans);
+            }
         }
         $this->em->flush();
     }
