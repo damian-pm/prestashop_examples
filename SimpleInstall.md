@@ -1,5 +1,5 @@
 # Install module
-### Manual
+### Manually
 1. Copy example to your project
 1. run command:
     ```bash
