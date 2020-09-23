@@ -22,7 +22,7 @@ Watch out for naming domain. ShopThemeActions work only in themes/
 {{'Hi {firstname} {lastname},'|trans({}, 'Emails.Body')}}
 ```
 
-**Remember to clear cache! Sometimes PS not caching changes.**
+**Remember to clear cache! Sometimes PS not catching changes.**
 
 ### Install
 [install module - look here](https://github.com/damian-pm/prestashop_examples/tree/master/SimpleInstall.md)
