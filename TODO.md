@@ -10,14 +10,7 @@
 * jak dodać do smarty funkcje która będzie robiła ładnego var_dump-a
 * zrobic console command
 * jak zarejestrowac hook w module controller-a w podstawowej wersji to registerHook('jakisHook')
-* tlumaczenia jak wygenerowac pojedynczy tekst dla szablonu
-* do zrobienia modul translator tylko custom teksty:
-      * lista tlumaczen ()
-      * edycja tlumaczen (ps_translations) 
-      * usuwanie
-      * dodawanie nowych
-      * wyszukiwarka tlumaczen
-      * no i na jaki język przetlumaczyć
+* jak zarejestrować hook w motywie który będzie posiadał modul ps_mainmenu
       
 wedkarski
 - menu leve jak w allegro czyli wyglad i filtry 
@@ -36,3 +29,5 @@ ogarniete:
  * jak dodac modul do hooka który będzie wyświetlał np. tekst lub obrazek tutaj link: 
       http://presta.test/admin-dev/index.php/improve/design/modules/positions/?_token=bE263NHrdceAg6sTYaoyu3gCHH8b0N3n8xUwiuHAi7E
      no i bedzie go można przypiąć do innych hooków
+* do zrobienia modul translator tylko custom teksty
+* tlumaczenia jak wygenerowac pojedynczy tekst dla szablonu
