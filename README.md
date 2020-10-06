@@ -6,7 +6,7 @@ Choose one of the example and install step by step them. I show here how to crea
     * [Example - Simple Webservice Api (Frontend) ](https://github.com/damian-pm/prestashop_examples/tree/master/examples/ExampleWebserviceApi)
     * [Example - Api Beer (Backend) ](https://github.com/damian-pm/prestashop_examples/tree/master/examples/ExampleApiAdmin)
 * #### Module
-   * ##### Patterns
+   * ##### Basic patterns
        * [Example - Module backend (Smarty)](https://github.com/damian-pm/prestashop_examples/tree/master/examples/ExampleModule)
        * [Example - Module backend (Smarty/Symfony)](https://github.com/damian-pm/prestashop_examples/tree/master/examples/ExampleModuleBackEndSymfony)
        * [Example - Module with tab and redirect to controller](https://github.com/damian-pm/prestashop_examples/tree/master/examples/ExampleModuleTabRedirect)
