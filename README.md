@@ -13,7 +13,7 @@ Choose one of the example and install step by step them. I show here how to crea
        * [Example - Hook in module](https://github.com/damian-pm/prestashop_examples/tree/master/examples/ExampleHookModule)
        * [Example - Widget - Calendary](https://github.com/damian-pm/prestashop_examples/tree/master/examples/ExampleWidget)
        * [Example - Module Chartjs - pinned to hooks](https://github.com/damian-pm/prestashop_examples/tree/master/examples/ExampleModuleChart)
-   * ##### Working modules
+   * #### Working modules
        * [Module HookManager - full working - edit/delete/add](https://github.com/damian-pm/prestashop_examples/tree/master/examples/ModuleHookManager)
        * [Module TranslateManager](https://github.com/damian-pm/prestashop_examples/tree/master/examples/ModuleTextTranslate)
 * #### Theme
