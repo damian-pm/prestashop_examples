@@ -31,3 +31,14 @@
      <pre>{$menu|@print_r}</pre>
   ```
 </details>
+
+<details>
+  <summary>Composer refresh namespace</summary>
+  
+  ```bash
+     composer dump-autoload -o
+  ```
+</details>
+
+
+

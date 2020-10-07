@@ -6,14 +6,14 @@ Choose one of the example and install step by step them. I show here how to crea
     * [Example - Simple Webservice Api (Frontend) ](https://github.com/damian-pm/prestashop_examples/tree/master/examples/ExampleWebserviceApi)
     * [Example - Api Beer (Backend) ](https://github.com/damian-pm/prestashop_examples/tree/master/examples/ExampleApiAdmin)
 * #### Module
-   * ##### Patterns
+   * ##### Basic patterns
        * [Example - Module backend (Smarty)](https://github.com/damian-pm/prestashop_examples/tree/master/examples/ExampleModule)
        * [Example - Module backend (Smarty/Symfony)](https://github.com/damian-pm/prestashop_examples/tree/master/examples/ExampleModuleBackEndSymfony)
        * [Example - Module with tab and redirect to controller](https://github.com/damian-pm/prestashop_examples/tree/master/examples/ExampleModuleTabRedirect)
        * [Example - Hook in module](https://github.com/damian-pm/prestashop_examples/tree/master/examples/ExampleHookModule)
        * [Example - Widget - Calendary](https://github.com/damian-pm/prestashop_examples/tree/master/examples/ExampleWidget)
        * [Example - Module Chartjs - pinned to hooks](https://github.com/damian-pm/prestashop_examples/tree/master/examples/ExampleModuleChart)
-   * ##### Working modules
+   * #### Working modules
        * [Module HookManager - full working - edit/delete/add](https://github.com/damian-pm/prestashop_examples/tree/master/examples/ModuleHookManager)
        * [Module TranslateManager](https://github.com/damian-pm/prestashop_examples/tree/master/examples/ModuleTextTranslate)
        * [Module Custom Console](https://github.com/damian-pm/prestashop_examples/tree/master/examples/ModuleConsole)
