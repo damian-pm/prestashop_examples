@@ -16,6 +16,7 @@ Choose one of the example and install step by step them. I show here how to crea
    * ##### Working modules
        * [Module HookManager - full working - edit/delete/add](https://github.com/damian-pm/prestashop_examples/tree/master/examples/ModuleHookManager)
        * [Module TranslateManager](https://github.com/damian-pm/prestashop_examples/tree/master/examples/ModuleTextTranslate)
+       * [Module Custom Console](https://github.com/damian-pm/prestashop_examples/tree/master/examples/ModuleConsole)
 * #### Theme
     * [Example - Email Theme in /mails](https://github.com/damian-pm/prestashop_examples/tree/master/examples/ExampleEmailTheme)
     * [Example - Email Theme in Custom Theme (themes/)](https://github.com/damian-pm/prestashop_examples/tree/master/examples/ExampleCustomEmailTheme)

@@ -1,0 +1,6 @@
+
+services:
+    ps_custom.console.custom_console_command:
+        class:  PrestaShop\Module\CustomConsole\Command\CreateEntityCommand
+        tags:
+            - { name: 'console.command' }

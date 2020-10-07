@@ -1,0 +1,16 @@
+{
+    "name": "module/customconsole",
+    "authors": [
+        {
+            "name": "Damian",
+            "email": "damian@portalmorski.pl"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+          "PrestaShop\\Module\\CustomConsole\\": "src/"
+        },
+        "classmap": ["customconsole.php"]
+      },
+    "require": {}
+}
