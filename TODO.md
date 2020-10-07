@@ -4,7 +4,6 @@
 * jak zrobic główne menu SELL czyli kategoria menu
 * jak dodawac i edytowac reklamy
 * instalacja bundle assets- o co chodzi generuje js,css image?
-* poznac dobrze dzialanie themes czyli podpinanie js i css oraz strukture
 * filtrowanie produktow jakis prosty controller zrobic
 * jak dodać do smarty funkcje która będzie robiła ładnego var_dump-a
 * jak zarejestrowac hook w module controller-a w podstawowej wersji to registerHook('jakisHook')
@@ -18,6 +17,7 @@ wedkarski
 
 
 ogarniete:
+* poznac dobrze dzialanie themes czyli podpinanie js i css oraz strukture
 * jak generowac email
 * jak zrobic theme email
 * dodac w exampleAllegro composer.json który złapie przestrzen nazw w tej chwili wymaga grzebania w innych plikach poza modules/
