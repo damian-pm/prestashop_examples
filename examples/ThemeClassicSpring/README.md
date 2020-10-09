@@ -1,4 +1,4 @@
-# Theme Classic Sptring
+# Theme Classic Spring
 
 Theme changed only css style, and got fixed menu.
 
