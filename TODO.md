@@ -8,6 +8,7 @@
 * jak dodać do smarty funkcje która będzie robiła ładnego var_dump-a
 * jak zarejestrowac hook w module controller-a w podstawowej wersji to registerHook('jakisHook')
 * jak zarejestrować hook w motywie który będzie posiadał modul ps_mainmenu
+* sprobować zrobic motyw  na wzór https://www.mightyape.co.nz/specials
 
 wedkarski
 - menu leve jak w allegro czyli wyglad i filtry 
