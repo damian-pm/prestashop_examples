@@ -1,6 +1,13 @@
 # Prestashop 1.7.6.7 - Examples
 
 
+* Modules
+      * [Module HookManager - full working - edit/delete/add :star2:](https://github.com/damian-pm/prestashop_examples/tree/master/examples/ModuleHookManager)
+      * [Module TranslateManager :star2:](https://github.com/damian-pm/prestashop_examples/tree/master/examples/ModuleTextTranslate)
+      * [Module Custom Console :star2:](https://github.com/damian-pm/prestashop_examples/tree/master/examples/ModuleConsole)
+* Themes
+    * [Theme - Classic Spring - CSS :star:](https://github.com/damian-pm/prestashop_examples/tree/master/examples/ThemeClassicSpring)
+    
 Choose one of the example and install step by step them. I show here how to create prepared controllers, modules, hooks etc. in PrestaShop version 1.7.6.x
 * #### Api
     * [Example - Simple Webservice Api (Frontend) ](https://github.com/damian-pm/prestashop_examples/tree/master/examples/ExampleWebserviceApi)
@@ -13,12 +20,7 @@ Choose one of the example and install step by step them. I show here how to crea
        * [Example - Hook in module](https://github.com/damian-pm/prestashop_examples/tree/master/examples/ExampleHookModule)
        * [Example - Widget - Calendary](https://github.com/damian-pm/prestashop_examples/tree/master/examples/ExampleWidget)
        * [Example - Module Chartjs - pinned to hooks](https://github.com/damian-pm/prestashop_examples/tree/master/examples/ExampleModuleChart)
-   * #### Working modules
-      * [Module HookManager - full working - edit/delete/add :star2:](https://github.com/damian-pm/prestashop_examples/tree/master/examples/ModuleHookManager)
-      * [Module TranslateManager :star2:](https://github.com/damian-pm/prestashop_examples/tree/master/examples/ModuleTextTranslate)
-      * [Module Custom Console :star2:](https://github.com/damian-pm/prestashop_examples/tree/master/examples/ModuleConsole)
 * #### Themes
-    * [Theme - Classic Spring - CSS](https://github.com/damian-pm/prestashop_examples/tree/master/examples/ThemeClassicSpring):star:
     * [Example - Email Theme in /mails](https://github.com/damian-pm/prestashop_examples/tree/master/examples/ExampleEmailTheme)
     * [Example - Email Theme in Custom Theme (themes/)](https://github.com/damian-pm/prestashop_examples/tree/master/examples/ExampleCustomEmailTheme)
     * [Example - Basic theme classic/sea](https://github.com/damian-pm/prestashop_examples/tree/master/examples/ExampleThemeSea)
