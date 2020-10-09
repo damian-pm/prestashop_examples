@@ -1,12 +1,12 @@
 # Prestashop 1.7.6.7 - Examples
 
 
-* Modules
-      * [Module HookManager - full working - edit/delete/add :star2:](https://github.com/damian-pm/prestashop_examples/tree/master/examples/ModuleHookManager)
-      * [Module TranslateManager :star2:](https://github.com/damian-pm/prestashop_examples/tree/master/examples/ModuleTextTranslate)
-      * [Module Custom Console :star2:](https://github.com/damian-pm/prestashop_examples/tree/master/examples/ModuleConsole)
+* Modules:
+     * [Module HookManager - full working - edit/delete/add :star2:](https://github.com/damian-pm/prestashop_examples/tree/master/examples/ModuleHookManager)
+     * [Module TranslateManager :star2:](https://github.com/damian-pm/prestashop_examples/tree/master/examples/ModuleTextTranslate)
+     * [Module Custom Console :star2:](https://github.com/damian-pm/prestashop_examples/tree/master/examples/ModuleConsole)
 * Themes
-    * [Theme - Classic Spring - CSS :star:](https://github.com/damian-pm/prestashop_examples/tree/master/examples/ThemeClassicSpring)
+     * [Theme - Classic Spring - CSS :star:](https://github.com/damian-pm/prestashop_examples/tree/master/examples/ThemeClassicSpring)
     
 Choose one of the example and install step by step them. I show here how to create prepared controllers, modules, hooks etc. in PrestaShop version 1.7.6.x
 * #### Api
