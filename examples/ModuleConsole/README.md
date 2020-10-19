@@ -10,8 +10,10 @@ You can see here how works console command and how simple add new entity with ge
 
 ### Configuration
 Configuration can be found in `Admin Panel`, `Module manager` and search `customconsole`.\
-Default entity path: src/PrestaShopBundle/Entity\
-Default entity namespace :PrestaShopBundle\Entity
+
+``Default entity path: src/PrestaShopBundle/Entity``
+
+``Default entity namespace :PrestaShopBundle\Entity ``
 
 ### Access
 ```bash
