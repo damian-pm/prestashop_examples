@@ -15,6 +15,11 @@ wedkarski
 - sciezka linka kategorii
 - wyswietlany produkt - przy kilku wersjach produktu lista (i miniatury fotkek ) po najechaniu ma wyswietlac zdjecie male lub powiekszone
 
+vue backend:
+* zad:
+       * megamenu
+       * slider
+       * onclick wyszukiwarka zwroc wynik ajaxem
 
 ogarniete:
 * poznac dobrze dzialanie themes czyli podpinanie js i css oraz strukture
