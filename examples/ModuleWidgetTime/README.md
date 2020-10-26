@@ -3,6 +3,8 @@ Display real-time watch.
 
 Writed in **Vue.js version 2**
 
+![alt text](screen.png "Title")
+
 ### Install
 [How install module look here](https://github.com/damian-pm/prestashop_examples/tree/master/SimpleInstall.md)
 
