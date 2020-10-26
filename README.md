@@ -21,7 +21,7 @@ Choose one of the example and install step by step them. I show here how to crea
        * [Example - Hook in module](https://github.com/damian-pm/prestashop_examples/tree/master/examples/ExampleHookModule)
        * [Example - Widget - Calendary](https://github.com/damian-pm/prestashop_examples/tree/master/examples/ExampleWidget)
        * [Example - Module Chartjs - pinned to hooks](https://github.com/damian-pm/prestashop_examples/tree/master/examples/ExampleModuleChart)
-       * [Example - Module TIME (Vue.js)](https://github.com/damian-pm/prestashop_examples/tree/master/examples/ModuleWidgetTime)
+       * [Example - Module TIME (Vue.js)](https://github.com/damian-pm/prestashop_examples/tree/master/examples/ModuleWidgetTime) :feet:
 * #### Themes
     * [Example - Email Theme in /mails](https://github.com/damian-pm/prestashop_examples/tree/master/examples/ExampleEmailTheme)
     * [Example - Email Theme in Custom Theme (themes/)](https://github.com/damian-pm/prestashop_examples/tree/master/examples/ExampleCustomEmailTheme)
