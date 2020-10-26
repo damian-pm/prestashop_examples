@@ -12,9 +12,9 @@
 
 VUE backend:
 * zad:
-       * megamenu
-       * slider
-       * onclick wyszukiwarka zwroc wynik ajaxem
+    * megamenu
+    * slider
+    * onclick wyszukiwarka zwroc wynik ajaxem
        
 wedkarski
 - menu leve jak w allegro czyli wyglad i filtry 
