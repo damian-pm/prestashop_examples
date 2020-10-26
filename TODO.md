@@ -8,18 +8,21 @@
 * jak dodać do smarty funkcje która będzie robiła ładnego var_dump-a
 * jak zarejestrowac hook w module controller-a w podstawowej wersji to registerHook('jakisHook')
 * jak zarejestrować hook w motywie który będzie posiadał modul ps_mainmenu
+* zrobic modul z vue moze byc nawet szablon
 
+VUE backend:
+* zad:
+       * megamenu
+       * slider
+       * onclick wyszukiwarka zwroc wynik ajaxem
+       
 wedkarski
 - menu leve jak w allegro czyli wyglad i filtry 
 - nas - kopia danych
 - sciezka linka kategorii
 - wyswietlany produkt - przy kilku wersjach produktu lista (i miniatury fotkek ) po najechaniu ma wyswietlac zdjecie male lub powiekszone
 
-vue backend:
-* zad:
-       * megamenu
-       * slider
-       * onclick wyszukiwarka zwroc wynik ajaxem
+
 
 ogarniete:
 * poznac dobrze dzialanie themes czyli podpinanie js i css oraz strukture
