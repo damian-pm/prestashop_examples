@@ -16,7 +16,8 @@ VUE backend:
     * megamenu
     * slider
     * onclick wyszukiwarka zwroc wynik ajaxem
-       
+    * cos z velocity.js zrobic
+    
 wedkarski
 - menu leve jak w allegro czyli wyglad i filtry 
 - nas - kopia danych
