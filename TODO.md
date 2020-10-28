@@ -9,6 +9,7 @@
 * jak zarejestrowac hook w module controller-a w podstawowej wersji to registerHook('jakisHook')
 * jak zarejestrować hook w motywie który będzie posiadał modul ps_mainmenu
 * zrobic modul z vue moze byc nawet szablon
+* modul vue.js - komentarze w czasie rzeczywistym
 
 VUE backend:
 * zad:
