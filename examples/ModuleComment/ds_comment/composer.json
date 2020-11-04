@@ -1,0 +1,17 @@
+{
+    "name": "marinet/ds_comment",
+    "authors": [
+        {
+            "name": "Damian",
+            "email": "damian@portalmorski.pl"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+          "PrestaShop\\Module\\DSComment\\": "src/"
+        },
+        "classmap": ["ds_comment.php"],
+        "exclude-from-classmap": []
+      },
+    "require": {}
+}

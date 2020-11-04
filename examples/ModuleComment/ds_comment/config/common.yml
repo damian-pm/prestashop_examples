@@ -1,0 +1,8 @@
+services:
+  _defaults:
+    public: true
+  product_comment_repo:
+    class: PrestaShop\Module\DSComment\Repository\DSCommentRepository
+    arguments:
+      - '@doctrine.dbal.default_connection'
+      - '%database_prefix%'

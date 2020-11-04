@@ -2,12 +2,12 @@
 
 ### Recommanded
 * #### Modules:
-     * [Module HookManager - full working - edit/delete/add :star2:](https://github.com/damian-pm/prestashop_examples/tree/master/examples/ModuleHookManager)
-     * [Module TranslateManager :star2:](https://github.com/damian-pm/prestashop_examples/tree/master/examples/ModuleTextTranslate)
-     * [Module Custom Console :star2:](https://github.com/damian-pm/prestashop_examples/tree/master/examples/ModuleConsole)
+     * [Module HookManager - full working - edit/delete/add :star:](https://github.com/damian-pm/prestashop_examples/tree/master/examples/ModuleHookManager)
+     * [Module TranslateManager :star:](https://github.com/damian-pm/prestashop_examples/tree/master/examples/ModuleTextTranslate)
+     * [Module Custom Console :star:](https://github.com/damian-pm/prestashop_examples/tree/master/examples/ModuleConsole)
+     * [Module Product Comment :star:](https://github.com/damian-pm/prestashop_examples/tree/master/examples/ModuleComment):pushpin: NEW 
 * #### Themes
      * [Theme - Classic Spring - CSS :star:](https://github.com/damian-pm/prestashop_examples/tree/master/examples/ThemeClassicSpring)
-
 
 Choose one of the example and install step by step them. I show here how to create prepared controllers, modules, hooks etc. in PrestaShop version 1.7.6.x
 * #### Api
@@ -21,7 +21,7 @@ Choose one of the example and install step by step them. I show here how to crea
        * [Example - Hook in module](https://github.com/damian-pm/prestashop_examples/tree/master/examples/ExampleHookModule)
        * [Example - Widget - Calendary](https://github.com/damian-pm/prestashop_examples/tree/master/examples/ExampleWidget)
        * [Example - Module Chartjs - pinned to hooks](https://github.com/damian-pm/prestashop_examples/tree/master/examples/ExampleModuleChart)
-       * [Example - Module TIME (Vue.js)](https://github.com/damian-pm/prestashop_examples/tree/master/examples/ModuleWidgetTime) :pushpin:
+       * [Example - Module TIME (Vue.js)](https://github.com/damian-pm/prestashop_examples/tree/master/examples/ModuleWidgetTime)
 * #### Themes
     * [Example - Email Theme in /mails](https://github.com/damian-pm/prestashop_examples/tree/master/examples/ExampleEmailTheme)
     * [Example - Email Theme in Custom Theme (themes/)](https://github.com/damian-pm/prestashop_examples/tree/master/examples/ExampleCustomEmailTheme)
