@@ -11,6 +11,8 @@
 * zrobic modul z vue moze byc nawet szablon
 * modul vue.js - komentarze w czasie rzeczywistym
 * konfiguracja mysql do ogarniecia
+* mysql przypiać wszelkie logi do bazy z bazy
+* sprawdzić jak na preście odpalic wszelkiego rodzaju logi
 
 VUE backend:
 * zad:
