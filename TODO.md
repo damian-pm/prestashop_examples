@@ -13,6 +13,7 @@
 * konfiguracja mysql do ogarniecia
 * mysql przypiać wszelkie logi do bazy z bazy
 * sprawdzić jak na preście odpalic wszelkiego rodzaju logi
+* przetestowac https://github.com/Limenius/LiformBundle czyli schemat formularza do JSON-a
 
 VUE backend:
 * zad:
