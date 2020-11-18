@@ -3,9 +3,9 @@
 ### Recommanded
 * #### Modules:
      * [Module HookManager - full working - edit/delete/add :star:](https://github.com/damian-pm/prestashop_examples/tree/master/examples/ModuleHookManager)
-     * [Module TranslateManager :star:](https://github.com/damian-pm/prestashop_examples/tree/master/examples/ModuleTextTranslate)
+     * [Module TranslateManager :star:](https://github.com/damian-pm/prestashop_examples/tree/master/examples/ModuleTextTranslate):pushpin: NEW
      * [Module Custom Console :star:](https://github.com/damian-pm/prestashop_examples/tree/master/examples/ModuleConsole)
-     * [Module Product Comment :star:](https://github.com/damian-pm/prestashop_examples/tree/master/examples/ModuleComment):pushpin: NEW 
+     * [Module Product Comment :star:](https://github.com/damian-pm/prestashop_examples/tree/master/examples/ModuleComment) 
 * #### Themes
      * [Theme - Classic Spring - CSS :star:](https://github.com/damian-pm/prestashop_examples/tree/master/examples/ThemeClassicSpring)
 

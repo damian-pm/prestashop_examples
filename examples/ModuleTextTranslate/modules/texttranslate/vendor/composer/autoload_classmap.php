@@ -6,8 +6,18 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'PrestaShop\\Module\\TextTranslate\\Controller\\TabController' => $baseDir . '/src/Controller/TabController.php',
+    'PrestaShop\\Module\\TextTranslate\\Controller\\TestController' => $baseDir . '/src/Controller/TestController.php',
     'PrestaShop\\Module\\TextTranslate\\Controller\\TranslateController' => $baseDir . '/src/Controller/TranslateController.php',
-    'PrestaShop\\Module\\TextTranslate\\Entity\\Tab' => $baseDir . '/src/Entity/Tab.php',
+    'PrestaShop\\Module\\TextTranslate\\Entity\\TabLang' => $baseDir . '/src/Entity/TabLang.php',
+    'PrestaShop\\Module\\TextTranslate\\Entity\\TabLangCollection' => $baseDir . '/src/Entity/TabLangCollection_usunac.php',
+    'PrestaShop\\Module\\TextTranslate\\Entity\\Translation' => $baseDir . '/src/Entity/Translation.php',
+    'PrestaShop\\Module\\TextTranslate\\Form\\TabLangCollectionType' => $baseDir . '/src/Form/TabLangCollectionType_usunac.php',
+    'PrestaShop\\Module\\TextTranslate\\Form\\TabLangType' => $baseDir . '/src/Form/TabLangType.php',
+    'PrestaShop\\Module\\TextTranslate\\Form\\TranslationAddType' => $baseDir . '/src/Form/TranslationAddType.php',
+    'PrestaShop\\Module\\TextTranslate\\Form\\TranslationType' => $baseDir . '/src/Form/TranslationType.php',
+    'PrestaShop\\Module\\TextTranslate\\Repository\\TabLangRepository' => $baseDir . '/src/Entity/Repository/TabLangRepository.php',
+    'PrestaShop\\Module\\TextTranslate\\Repository\\TranslationRepository' => $baseDir . '/src/Entity/Repository/TranslationRepository.php',
     'PrestaShop\\Module\\TextTranslate\\Service\\TranslateService' => $baseDir . '/src/Service/TranslateService.php',
     'texttranslate' => $baseDir . '/texttranslate.php',
 );

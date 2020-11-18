@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>texttranslate</name>
+    <displayName><![CDATA[Translation manager]]></displayName>
+    <version><![CDATA[1.1.0]]></version>
+    <description><![CDATA[Custom text translate]]></description>
+    <author><![CDATA[damian-pm]]></author>
+    <tab><![CDATA[administration]]></tab>
+    <is_configurable>1</is_configurable>
+    <need_instance>1</need_instance>
+	<limited_countries></limited_countries>
+</module>

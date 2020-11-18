@@ -4,11 +4,12 @@ namespace PrestaShop\Module\TextTranslate\Service;
 
 use Doctrine\Orm\EntityManager;
 use Exception;
-use PrestaShop\Module\TextTranslate\Entity\TabLangCollection;
 use PrestaShopBundle\Entity\Repository\LangRepository;
-use PrestaShopBundle\Entity\Repository\TabLangRepository;
-use PrestaShopBundle\Entity\Repository\TranslationRepository;
+use PrestaShop\Module\TextTranslate\Repository\TabLangRepository;
+use PrestaShopBundle\Entity\Repository\TranslationRepository as PrimaryTranslationRepo;
+use PrestaShop\Module\TextTranslate\Repository\TranslationRepository;
 use PrestaShopBundle\Entity\TabLang;
+use PrestaShopBundle\Entity\Repository\TabLangRepository as PrimaryTabLangRepo;
 use PrestaShopBundle\Entity\Translation;
 
 /**
@@ -24,6 +25,9 @@ class TranslateService {
 
     /** @var TranslationRepository */
     private $translationRepository;
+    
+    /** @var PrimaryTranslationRepo */
+    private $primaryTranslationRepository;
 
     /** @var LangRepository */
     private $langRepository;
@@ -40,55 +44,46 @@ class TranslateService {
         EntityManager $em,
         TabLangRepository $tabLangRepository,
         TranslationRepository $translationRepository,
+        PrimaryTranslationRepo $primaryTranslationRepository,
+        PrimaryTabLangRepo $primaryTabLangRepository,
         LangRepository $langRepository) {
+            
         $this->em = $em;
         $this->tabLangRepository = $tabLangRepository;
+        $this->primaryTabLangRepository = $primaryTabLangRepository;
         $this->translationRepository = $translationRepository;
+        $this->primaryTranslationRepository = $primaryTranslationRepository;
         $this->langRepository = $langRepository;
     }
     /**
      * Get tablang list
      *
-     * @return void
+     * @return Collection
      */
     public function getTabLangList(){
-        return $this->tabLangRepository->findAll();
+        return $this->tabLangRepository->getAllByArray();
     }
+    public function getTabLangByName($name){
+        return $this->primaryTabLangRepository->findOneBy(['name' => $name]);
+    }
+ 
     /**
      * Undocumented function
      *
-     * @param TabLangCollection $tbCo
-     * @return void
-     */
-    public function update(TabLangCollection $tbCo){
-        dump($tbCo);
-        foreach ($tbCo->getTablangs() as $tablang) {
-                $this->em->persist($tablang);
-        }
-        foreach ($tbCo->getTranslations() as $trans) {
-            dump($tablang->getLang());
-            if ($tablang->getLang()) {
-                $this->em->persist($trans);
-            }
-        }
-        $this->em->flush();
-    }
-    /**
-     * Undocumented function
-     *
-     * @return void
+     * @return array
      */
     public function getCustomeTranslationList(){
-        return $this->translationRepository->findAll();
+        return $this->translationRepository->getAllByArray() ?: [];
     }
     /**
      * Undocumented function
      *
      * @return void
      */
-    public function getLangs(){
-        return $this->langRepository->findAll();
+    public function getCustomeTranslationById($id){
+        return $this->primaryTranslationRepository->findOneBy(['id' => $id]);
     }
+
     /**
      * Undocumented function
      *
@@ -99,14 +94,32 @@ class TranslateService {
         $this->em->persist($tabLang);
         $this->em->flush();
     }
-    /**
-     * Undocumented function
-     *
-     * @param Translation $tabLang
-     * @return void
-     */
-    public function addTranslation(Translation $tabLang){
-        $this->em->persist($tabLang);
+      
+    public function createOrUpdateTab(Int $id, TabLang $tablang){
+        /** @var TabLang $trans */
+        $trans = $this->primaryTabLangRepository->findOneBy(['id' => $id]);
+        if ($trans != null) {
+            $trans->setLang($tablang->getLang());
+            $trans->setName($tablang->getName());
+            $this->em->persist($trans);
+        } else {
+            $this->em->persist($tablang);
+        }
+        $this->em->flush();
+    }
+    public function createOrUpdate(Int $id, Translation $translate){
+        /** @var Translation $trans */
+        $trans = $this->primaryTranslationRepository->findOneBy(['id' => $id]);
+        if ($trans != null) {
+            $trans->setKey($translate->getKey());
+            $trans->setDomain($translate->getDomain());
+            $trans->setLang($translate->getLang());
+            $trans->setTheme($translate->getTheme());
+            $trans->setTranslation($translate->getTranslation());
+            $this->em->persist($trans);
+        } else {
+            $this->em->persist($translate);
+        }
         $this->em->flush();
     }
     /**

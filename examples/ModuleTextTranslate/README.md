@@ -1,6 +1,8 @@
-# Module - Translation manager
+# Module - Translation manager ver 1.1.0
 Very simple manager, you can sort them by text or by language. On the 'Custom translate' you can override existing translations.
 After added one, you can use them by passing in template.
+
+Module shows how to combine **Vue CLI and Symfony in PrestaShop module**.
 
 ### Required
 * Bootstrap 4

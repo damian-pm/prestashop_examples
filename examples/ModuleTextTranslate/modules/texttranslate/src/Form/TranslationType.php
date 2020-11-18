@@ -3,7 +3,7 @@
 namespace PrestaShop\Module\TextTranslate\Form;
 
 use PrestaShopBundle\Entity\Lang;
-use PrestaShopBundle\Entity\Translation;
+use PrestaShop\Module\TextTranslate\Entity\Translation;
 use Symfony\Bridge\Doctrine\Form\Type\EntityType;
 use Symfony\Component\Form\AbstractType;
 use Symfony\Component\Form\Extension\Core\Type\SubmitType;
@@ -35,7 +35,9 @@ class TranslationType extends AbstractType
                 'label' => false,
                 'attr' => [
                     'class' => 'search-word-place'
-                ]
+                ],
+                'required' => false,
+                // 'data' => 'none'
             ])
             ->add('domain', TextType::class, [
                 'label' => false,
@@ -56,7 +58,8 @@ class TranslationType extends AbstractType
                 'label' => false,
                 'attr' => [
                     'class' => 'select-lang'
-                ]
+                ],
+                // 'required' => true
             ])
         ;
 
@@ -65,6 +68,7 @@ class TranslationType extends AbstractType
     {
         $resolver->setDefaults([
             'data_class' => Translation::class,
+            // 'empty_data' => new Translation(),
         ]);
     }
 }

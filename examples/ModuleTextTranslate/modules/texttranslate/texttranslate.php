@@ -19,7 +19,7 @@ class texttranslate extends Module
         error_reporting(0); //E_ALL
         $this->name = 'texttranslate';
         $this->tab = 'administration';
-        $this->version = '1.0.0';
+        $this->version = '1.1.0';
         $this->author = 'damian-pm';
         $this->psver = $this->psversion();
         parent::__construct();
@@ -30,7 +30,7 @@ class texttranslate extends Module
 
     public function getContent() {
         // Redirect to controller
-        Tools::redirectAdmin($this->context->link->getAdminLink('AdminTranslateAction'));
+        // Tools::redirectAdmin($this->context->link->getAdminLink('AdminTranslateAction'));
 
         $url = $this->context->link->getAdminLink('AdminTranslateAction',true, [], []);
         $this->context->smarty->assign('url', $url);

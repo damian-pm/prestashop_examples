@@ -6,6 +6,15 @@ translator_text:
     _legacy_controller: AdminTranslateAction
     _legacy_link: AdminTranslateAction
 
+
+translator_text_get_translations:
+  path: /translations/get # /modules/translate
+  methods: [GET]
+  defaults:
+    _controller: 'PrestaShop\Module\TextTranslate\Controller\TranslateController::getTranslations'
+    _legacy_controller: AdminTranslateActionGet
+    _legacy_link: AdminTranslateActionGet
+
 translator_text_add_translation:
   path: /translate/add # /modules/translate/add
   methods: [POST]
@@ -22,3 +31,34 @@ translator_text_delete_translation:
     _legacy_controller: AdminTranslateDeleteTransAction
     _legacy_link: AdminTranslateDeleteTransAction
 
+translator_text_update_translation:
+  path: /translate/update 
+  methods: [POST, GET]
+  defaults:
+    _controller: 'PrestaShop\Module\TextTranslate\Controller\TranslateController::updateTranslationAction'
+    _legacy_controller: AdminTranslateUpdateTransAction
+    _legacy_link: AdminTranslateUpdateTransAction
+
+translator_text_update_tab:
+  path: /tab/update
+  methods: [POST, GET]
+  defaults:
+    _controller: 'PrestaShop\Module\TextTranslate\Controller\TabController::update'
+    _legacy_controller: AdminTranslateUpdateTabAction
+    _legacy_link: AdminTranslateUpdateTabAction
+
+translator_text_get_tab:
+  path: /tab/get
+  methods: [POST, GET]
+  defaults:
+    _controller: 'PrestaShop\Module\TextTranslate\Controller\TabController::getAll'
+    _legacy_controller: AdminTranslateUpdateTabAction
+    _legacy_link: AdminTranslateUpdateTabAction
+
+translator_text_delete_tab:
+  path: /tab/delete
+  methods: [POST, GET]
+  defaults:
+    _controller: 'PrestaShop\Module\TextTranslate\Controller\TabController::delete'
+    _legacy_controller: AdminTranslateDeleteTabAction
+    _legacy_link: AdminTranslateDeleteTabAction

@@ -21,8 +21,18 @@ class ComposerStaticInitac5ecaad4e9e4c891300ca0aa50030f8
     );
 
     public static $classMap = array (
+        'PrestaShop\\Module\\TextTranslate\\Controller\\TabController' => __DIR__ . '/../..' . '/src/Controller/TabController.php',
+        'PrestaShop\\Module\\TextTranslate\\Controller\\TestController' => __DIR__ . '/../..' . '/src/Controller/TestController.php',
         'PrestaShop\\Module\\TextTranslate\\Controller\\TranslateController' => __DIR__ . '/../..' . '/src/Controller/TranslateController.php',
-        'PrestaShop\\Module\\TextTranslate\\Entity\\Tab' => __DIR__ . '/../..' . '/src/Entity/Tab.php',
+        'PrestaShop\\Module\\TextTranslate\\Entity\\TabLang' => __DIR__ . '/../..' . '/src/Entity/TabLang.php',
+        'PrestaShop\\Module\\TextTranslate\\Entity\\TabLangCollection' => __DIR__ . '/../..' . '/src/Entity/TabLangCollection_usunac.php',
+        'PrestaShop\\Module\\TextTranslate\\Entity\\Translation' => __DIR__ . '/../..' . '/src/Entity/Translation.php',
+        'PrestaShop\\Module\\TextTranslate\\Form\\TabLangCollectionType' => __DIR__ . '/../..' . '/src/Form/TabLangCollectionType_usunac.php',
+        'PrestaShop\\Module\\TextTranslate\\Form\\TabLangType' => __DIR__ . '/../..' . '/src/Form/TabLangType.php',
+        'PrestaShop\\Module\\TextTranslate\\Form\\TranslationAddType' => __DIR__ . '/../..' . '/src/Form/TranslationAddType.php',
+        'PrestaShop\\Module\\TextTranslate\\Form\\TranslationType' => __DIR__ . '/../..' . '/src/Form/TranslationType.php',
+        'PrestaShop\\Module\\TextTranslate\\Repository\\TabLangRepository' => __DIR__ . '/../..' . '/src/Entity/Repository/TabLangRepository.php',
+        'PrestaShop\\Module\\TextTranslate\\Repository\\TranslationRepository' => __DIR__ . '/../..' . '/src/Entity/Repository/TranslationRepository.php',
         'PrestaShop\\Module\\TextTranslate\\Service\\TranslateService' => __DIR__ . '/../..' . '/src/Service/TranslateService.php',
         'texttranslate' => __DIR__ . '/../..' . '/texttranslate.php',
     );

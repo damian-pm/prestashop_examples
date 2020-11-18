@@ -1,13 +1,14 @@
 {
-    "name": "marinet/texttranslate",
+    "name": "module/texttranslate",
     "description": "Custom translate text",
     "authors": [
         {
             "name": "Damian",
-            "email": "damian@portalmorski.pl"
+            "email": "damian.portalm@gmail.com"
         }
     ],
-    "require": {},
+    "require": {
+    },
     "autoload": {
         "psr-4": {
           "PrestaShop\\Module\\TextTranslate\\": "src/"

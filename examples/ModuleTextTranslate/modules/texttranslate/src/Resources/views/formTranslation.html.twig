@@ -7,11 +7,5 @@
 {% endfor %}
 </div>
 </div>
-{{form_start(form)}}
-  {{form_row(form.key)}}
-  {{form_row(form.lang)}}
-  {{form_row(form.translation)}}
-  {{form_row(form.domain)}}
-  {{form_row(form.theme)}}
-  {{form_row(form.save)}}
+{{form_start(form, {'attr' : {'id':'form_add'}})}}
 {{form_end(form)}}
