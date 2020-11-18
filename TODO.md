@@ -13,6 +13,8 @@
 * konfiguracja mysql do ogarniecia
 * mysql przypiać wszelkie logi do bazy z bazy
 * sprawdzić jak na preście odpalic wszelkiego rodzaju logi
+* przetestowac https://github.com/Limenius/LiformBundle czyli schemat formularza do JSON-a
+* logger sprawdzic czy da rade zapisac logi php jak nie to stworzyc modul do zapisu logów
 
 VUE backend:
 * zad:
