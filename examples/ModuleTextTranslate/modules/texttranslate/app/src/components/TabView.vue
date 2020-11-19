@@ -11,7 +11,14 @@
     </b-row>
     <b-row v-if="showTranslations">
         <b-col>
-            <b-table striped hover show-empty :fields="fieldsTabs" :items="filtered" >
+                <b-pagination
+                v-model="currentPage"
+                :total-rows="rows"
+                :per-page="perPage"
+                aria-controls="tabTable"
+                ></b-pagination>
+            <b-table striped hover show-empty :fields="fieldsTabs" :items="filtered" 
+             id="tabTable" :per-page="perPage" :current-page="currentPage" >
                 <template slot="top-row" slot-scope="{ fields }">
                 <td v-for="field in fields" :key="field.key">
                     <input v-model="filters[field.key]" :placeholder="field.label">
@@ -38,6 +45,8 @@ export default {
     name: 'TabView',
       data: function(){
         return {
+            perPage: '10',
+            currentPage: '1',
             showTranslations: false,
             size: "30",
             fieldsTabs: [
@@ -58,6 +67,9 @@ export default {
         DotLoader
     },
     computed: {
+        rows() {
+            return this.filtered.length
+        },
         filtered () {
             const filtered = this.tabs.filter(item => {
                 return Object.keys(this.filters).every(key =>

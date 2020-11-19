@@ -4,7 +4,6 @@
     <b-row>
         <b-col class="box-custom-btn">
             <b-button class="float-left" @click="$bvModal.show('bv-modal-example'); edit(0)">Add new translation</b-button>
-            
             <div class="ttloader">
                 <dot-loader :loading="showTransLoader" :size="size"></dot-loader>
             </div>
@@ -12,7 +11,15 @@
     </b-row>
     <b-row v-if="showTranslations" >
         <b-col>
-            <b-table striped hover show-empty :fields="fieldsTranslation" :items="filtered" >
+            <b-pagination
+                v-model="currentPage"
+                :total-rows="rows"
+                :per-page="perPage"
+                aria-controls="translationTable"
+                ></b-pagination>
+
+            <b-table striped hover show-empty 
+            id="translationTable" :per-page="perPage" :current-page="currentPage" :fields="fieldsTranslation" :items="filtered" >
                 <template slot="top-row" slot-scope="{ fields }">
                     <td v-for="field in fields" :key="field.key">
                         <input v-model="filters[field.key]" :placeholder="field.label">
@@ -44,6 +51,8 @@ export default {
     name: 'TranslationView',
       data: function(){
         return {
+            perPage: '10',
+            currentPage: '1',
             showTranslations: false,
             fieldsTranslation: [ 
                 { key: 'key', label: 'Text', sortable: true},
@@ -68,7 +77,11 @@ export default {
         ModalTranslation,
         DotLoader
     },
+
     computed: {
+        rows() {
+            return this.filtered.length
+        },
         filtered () {
             const filtered = this.translations.filter(item => {
                 return Object.keys(this.filters).every(key =>
@@ -136,6 +149,9 @@ export default {
 
 .container-trans {
     min-height: 700px;
+}
+.box-custom-btn {
+    margin-bottom: 10px;
 }
 
 </style>
