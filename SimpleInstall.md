@@ -15,6 +15,7 @@
     composer dump-autoload -o
     ```
 ### From admin panel
-1. Zip module dir.
+1. Find file .zip, this is full package module
     Like in this example :[ ModuleHookManager is prepared zip](https://github.com/damian-pm/prestashop_examples/tree/master/examples/ModuleHookManager)
-1. Go to AdminPanel `` Modules > module manager`` find button 'upload a module' and add you module.zip from local disk
+    download it to your local server.
+1. Go to AdminPanel `` Modules > module manager`` find button 'upload a module' and add you module.zip from local server
