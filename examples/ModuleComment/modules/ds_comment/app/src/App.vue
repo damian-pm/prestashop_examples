@@ -2,7 +2,9 @@
   <div id="app">
     <button v-if="showBtn" v-on:click="showForm" class="btn btn-primary">add comment</button>
     <FormHandler v-if="initialized" v-bind:product="product"/>
-
+    <div class="loader-commant" v-if="showLoader">
+      <Jawn></Jawn>
+    </div>
     <div class="comm-container">
       <div class="comm-row" v-for="(item) in comments" v-bind:key="item.id">
         <div class="row">
@@ -29,11 +31,13 @@
 <script>
 import FormHandler from './components/FormHandler'
 import $ from 'jquery';
+import {Jawn } from 'vue-loading-spinner'
 
 export default {
   name: 'App',
   data: function(){
     return {
+      showLoader: false,
       initialized: false,
       url: 'http://' + window.location.host + '/pl/module/ds_comment/fetchComments',
       comments: [],
@@ -42,7 +46,8 @@ export default {
       };
   },
   components: {
-    FormHandler
+    FormHandler,
+    Jawn
   },
   mounted(){
     this.product = $('#product_comments').data()
@@ -57,11 +62,13 @@ export default {
     },
     refreshComments(){
       var self = this;
-
+      this.showLoader = true;
       $.post(this.url, function(response){
         let res = JSON.parse(response);
          if (res.data && res.data.comments) {
            self.comments = res.data.comments;
+            self.showLoader = false;
+
          }
       });
     }
@@ -106,5 +113,8 @@ export default {
 }
 .text-break-all {
   word-break: break-all;
+}
+.loader-commant {
+  margin:25px;
 }
 </style>

@@ -18,7 +18,7 @@ class ds_comment extends Module implements WidgetInterface
     {
         $this->name = 'ds_comment';
         $this->author = 'Damian';
-        $this->version = '1.0.0';
+        $this->version = '1.0.1';
         $this->need_instance = 0;
         $this->INSTALL_SQL_FILE = 'dscomment_tables.sql';
 

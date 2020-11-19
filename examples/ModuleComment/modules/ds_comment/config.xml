@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <module>
     <name>ds_comment</name>
-    <displayName><![CDATA[Widget comment]]></displayName>
-    <version><![CDATA[1.0.0]]></version>
-    <description><![CDATA[Simple comment product.]]></description>
+    <displayName><![CDATA[DS Comment Product]]></displayName>
+    <version><![CDATA[1.0.1]]></version>
+    <description><![CDATA[Simple module comment product.]]></description>
     <author><![CDATA[Damian]]></author>
     <tab><![CDATA[]]></tab>
     <is_configurable>0</is_configurable>
