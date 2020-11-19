@@ -15,6 +15,8 @@
 * sprawdzić jak na preście odpalic wszelkiego rodzaju logi
 * przetestowac https://github.com/Limenius/LiformBundle czyli schemat formularza do JSON-a
 * logger sprawdzic czy da rade zapisac logi php jak nie to stworzyc modul do zapisu logów
+* modul pokaz pogode w danej lokalizacj
+* modul pokaz produkty wedlug mojej lokalizacji
 
 VUE backend:
 * zad:
