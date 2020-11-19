@@ -19,11 +19,10 @@ data-url-update-tabs="{{url_update_tabs}}"
   </button>
 <div class="collapse" id="collapseExample">
     <div class="card card-body">
-      <b><p class="bold">Watch out for naming domain. ShopThemeActions work only in themes/ <br>
-        Domains: EmailsBody, AdminNavigationFooter</p> </b>
-      In Smarty: {l s='Contact' d='Admin.Navigation.Footer'} <br>
-      In Twig: { {'Hi {firstname} {lastname},'|trans({}, 'Emails.Body')}}
-              
+      <b><p class="bold">Watch out for naming domain. ShopThemeActions work only in themes/</p> </b>
+      <p>In Smarty: {l s='Contact' d='Admin.Navigation.Footer'} </p>
+      <p>{l s='Hi {firstname} {lastname},' sprintf=['{firstname}' => 'Jan', '{lastname}' => 'Kowalski'] d='Emails.Body'}</p>
+      <p>In Twig: { {'Hi {firstname} {lastname},'|trans({}, 'Emails.Body')}}</p>
   </div>
 </div>
     <div id="app"></div>
