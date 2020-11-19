@@ -17,6 +17,9 @@ Watch out for naming domain. ShopThemeActions work only in themes/
 ```smarty
 # EmailsBody
 {l s='Contact' d='Admin.Navigation.Footer'}
+{l s='Hi {firstname} {lastname},' sprintf=['{firstname}' => 'Jan', '{lastname}' => 'Kowalski'] d='Emails.Body'}
+# output:
+Hello!! Jan Kowalski,
 ```
 #### Twig:
 ```twig
