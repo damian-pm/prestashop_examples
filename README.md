@@ -23,8 +23,8 @@ Choose one of the example and install step by step them. I show here how to crea
        * [Example - Module Chartjs - pinned to hooks](https://github.com/damian-pm/prestashop_examples/tree/master/examples/ExampleModuleChart)
        * [Example - Module TIME (Vue.js)](https://github.com/damian-pm/prestashop_examples/tree/master/examples/ModuleWidgetTime)
 * #### Templates
-    * [Template module with VUE CLI](https://github.com/damian-pm/prestashop-module-template)
-    * [Template VUE CLI App with webpack, babel - build/watch/serve](https://github.com/damian-pm/vue-app-template)
+    * [Template module with Vue](https://github.com/damian-pm/prestashop-module-template)
+    * [Template App Vue - with webpack, babel - build/watch/serve](https://github.com/damian-pm/vue-app-template)
 * #### Themes
     * [Example - Email Theme in /mails](https://github.com/damian-pm/prestashop_examples/tree/master/examples/ExampleEmailTheme)
     * [Example - Email Theme in Custom Theme (themes/)](https://github.com/damian-pm/prestashop_examples/tree/master/examples/ExampleCustomEmailTheme)
