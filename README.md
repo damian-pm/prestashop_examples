@@ -3,7 +3,7 @@
 ### Recommanded
 * #### Modules:
      * [Module HookManager - full working - edit/delete/add :star:](https://github.com/damian-pm/prestashop_examples/tree/master/examples/ModuleHookManager)
-     * [Module TranslateManager :star:](https://github.com/damian-pm/prestashop_examples/tree/master/examples/ModuleTextTranslate):pushpin: NEW
+     * [Module TranslateManager :star:](https://github.com/damian-pm/prestashop_examples/tree/master/examples/ModuleTextTranslate)
      * [Module Custom Console :star:](https://github.com/damian-pm/prestashop_examples/tree/master/examples/ModuleConsole)
      * [Module Product Comment :star:](https://github.com/damian-pm/prestashop_examples/tree/master/examples/ModuleComment) 
 * #### Themes
@@ -34,6 +34,7 @@ Choose one of the example and install step by step them. I show here how to crea
     * [Tips](https://github.com/damian-pm/prestashop_examples/tree/master/examples/Helpers)
     * [Doctrine entity](https://github.com/damian-pm/prestashop_examples/tree/master/examples/Helpers/DoctrineHelper.md)
 * #### misc.
+    * [Tool GitSQL ](https://github.com/damian-pm/gitsql-tool/blob/main/README.md) :pushpin: NEW
     * [Example - Front-controller (Page)](https://github.com/damian-pm/prestashop_examples/tree/master/examples/ExampleFrontController)
     * [Example - Backend-controller (Admin Panel) (Symfony)](https://github.com/damian-pm/prestashop_examples/tree/master/examples/ExampleBackEndController)
     * [Example - Service translation with custome .xlf](https://github.com/damian-pm/prestashop_examples/tree/master/examples/ExampleTranslationService)
