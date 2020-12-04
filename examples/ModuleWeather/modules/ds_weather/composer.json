@@ -1,0 +1,17 @@
+{
+    "name": "prestashop-weather",
+    "authors": [
+        {
+            "name": "Damian",
+            "email": "damian.portalm@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+          "PrestaShop\\Module\\DSWeather\\": "src/"
+        },
+        "classmap": ["ds_weather.php"],
+        "exclude-from-classmap": []
+      },
+    "require": {}
+}
