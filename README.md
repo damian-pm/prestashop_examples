@@ -3,7 +3,7 @@
 ### Recommanded
 * #### Modules:
      * [Module HookManager - full working - edit/delete/add :star:](https://github.com/damian-pm/prestashop_examples/tree/master/examples/ModuleHookManager)
-     * [Module TranslateManager :star:](https://github.com/damian-pm/prestashop_examples/tree/master/examples/ModuleTextTranslate):pushpin: NEW
+     * [Module TranslateManager :star:](https://github.com/damian-pm/prestashop_examples/tree/master/examples/ModuleTextTranslate)
      * [Module Custom Console :star:](https://github.com/damian-pm/prestashop_examples/tree/master/examples/ModuleConsole)
      * [Module Product Comment :star:](https://github.com/damian-pm/prestashop_examples/tree/master/examples/ModuleComment) 
 * #### Themes
@@ -22,6 +22,9 @@ Choose one of the example and install step by step them. I show here how to crea
        * [Example - Widget - Calendary](https://github.com/damian-pm/prestashop_examples/tree/master/examples/ExampleWidget)
        * [Example - Module Chartjs - pinned to hooks](https://github.com/damian-pm/prestashop_examples/tree/master/examples/ExampleModuleChart)
        * [Example - Module TIME (Vue.js)](https://github.com/damian-pm/prestashop_examples/tree/master/examples/ModuleWidgetTime)
+* #### Templates
+    * [Template module with Vue](https://github.com/damian-pm/prestashop-module-template)
+    * [Template App Vue - with webpack, babel - build/watch/serve](https://github.com/damian-pm/vue-app-template)
 * #### Themes
     * [Example - Email Theme in /mails](https://github.com/damian-pm/prestashop_examples/tree/master/examples/ExampleEmailTheme)
     * [Example - Email Theme in Custom Theme (themes/)](https://github.com/damian-pm/prestashop_examples/tree/master/examples/ExampleCustomEmailTheme)
@@ -31,6 +34,7 @@ Choose one of the example and install step by step them. I show here how to crea
     * [Tips](https://github.com/damian-pm/prestashop_examples/tree/master/examples/Helpers)
     * [Doctrine entity](https://github.com/damian-pm/prestashop_examples/tree/master/examples/Helpers/DoctrineHelper.md)
 * #### misc.
+    * [GitSQL Tool (MySql)- Very simple tool for backup and restore database](https://github.com/damian-pm/gitsql-tool/blob/main/README.md) :pushpin: NEW
     * [Example - Front-controller (Page)](https://github.com/damian-pm/prestashop_examples/tree/master/examples/ExampleFrontController)
     * [Example - Backend-controller (Admin Panel) (Symfony)](https://github.com/damian-pm/prestashop_examples/tree/master/examples/ExampleBackEndController)
     * [Example - Service translation with custome .xlf](https://github.com/damian-pm/prestashop_examples/tree/master/examples/ExampleTranslationService)

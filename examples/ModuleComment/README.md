@@ -1,4 +1,4 @@
-# Module Product Comments
+# Module Product Comments v.1.0.1
 
 Module gave a opportunity to add comment for a product. All works under realtime action (ajax).
 
