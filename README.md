@@ -41,6 +41,7 @@ Choose one of the example and install step by step them. I show here how to crea
     * [Example - Simple Allegro Module ](https://github.com/damian-pm/prestashop_examples/tree/master/examples/ExampleModuleAllegro)
 * #### Not tested
     * [Module - weather](https://github.com/damian-pm/prestashop_examples/tree/master/examples/ModuleWeather)
+    * [Module - product thumbnail](https://github.com/damian-pm/prestashop_examples/tree/master/examples/ModuleProductThumbnail)
 
 #### Tutorials:
 * [knowband tutorial](https://www.knowband.com/blog/pl/prestashop-poradniki/)
