@@ -1,6 +1,6 @@
 # Module Product Thumbnail
 
-App mounted to product gallery photo and thumbnails, so you can turn pages like i demo flipbook
+App mounted to product gallery photo and thumbnails, so you can turn pages like in demo flipbook
 
 -- Not tested
 
