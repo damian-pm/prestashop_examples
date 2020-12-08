@@ -14,7 +14,8 @@ App mounted to product gallery photo and thumbnails, so you can turn pages like 
 
 Add module to the hook 'displayAfterProductThumbs'.
 For better look of products replace template content for example like this (classic theme):
-# file name: /themes/classic/templates/catalog/_partials/product-cover-thumbnails.tpl
+
+**file name: /themes/classic/templates/catalog/_partials/product-cover-thumbnails.tpl**
 ```smarty
 {* <div class="images-container">
   {block name='product_cover'}
