@@ -12,7 +12,7 @@
 * przetestowac https://github.com/Limenius/LiformBundle czyli schemat formularza do JSON-a
 * logger sprawdzic czy da rade zapisac logi php jak nie to stworzyc modul do zapisu logów
 * js dekoratory
-
+* modul do wyświetlania zdjęc miniatur wedlug wykrywania twarzy i przycinania do kwadratu
 
 VUE backend:
 * zad:
