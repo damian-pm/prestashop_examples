@@ -13,6 +13,9 @@
 * logger sprawdzic czy da rade zapisac logi php jak nie to stworzyc modul do zapisu logów
 * js dekoratory
 * modul do wyświetlania zdjęc miniatur wedlug wykrywania twarzy i przycinania do kwadratu
+    * https://codecanyon.net/item/prestashop-perfect-thumbnails/15329221?s_rank=11
+    * https://www.codediesel.com/algorithms/face-detection-in-images-using-php/
+* czat online https://www.callchat.pl/strona/pomoc/live-chat-plugin-prestashop można zrobić 
 
 VUE backend:
 * zad:
