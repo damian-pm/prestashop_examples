@@ -3,26 +3,21 @@
 * Jak dodać do statystyk (stats) nowe statystyki, statsbestsuppler jest dobrym przykładem
 * jak zrobic główne menu SELL czyli kategoria menu
 * jak dodawac i edytowac reklamy
-* instalacja bundle assets- o co chodzi generuje js,css image?
 * filtrowanie produktow jakis prosty controller zrobic
 * jak dodać do smarty funkcje która będzie robiła ładnego var_dump-a
 * jak zarejestrowac hook w module controller-a w podstawowej wersji to registerHook('jakisHook')
 * jak zarejestrować hook w motywie który będzie posiadał modul ps_mainmenu
-* zrobic modul z vue moze byc nawet szablon
-* modul vue.js - komentarze w czasie rzeczywistym
-* konfiguracja mysql do ogarniecia
-* mysql przypiać wszelkie logi do bazy z bazy
+* mysql przypiać wszelkie logi z bazy
 * sprawdzić jak na preście odpalic wszelkiego rodzaju logi
 * przetestowac https://github.com/Limenius/LiformBundle czyli schemat formularza do JSON-a
 * logger sprawdzic czy da rade zapisac logi php jak nie to stworzyc modul do zapisu logów
-* modul pokaz pogode w danej lokalizacj
-* modul pokaz produkty wedlug mojej lokalizacji
+* js dekoratory
+
 
 VUE backend:
 * zad:
     * megamenu
     * slider
-    * onclick wyszukiwarka zwroc wynik ajaxem
     * cos z velocity.js zrobic
     
 wedkarski
