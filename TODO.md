@@ -16,6 +16,7 @@
     * https://codecanyon.net/item/prestashop-perfect-thumbnails/15329221?s_rank=11
     * https://www.codediesel.com/algorithms/face-detection-in-images-using-php/
 * czat online https://www.callchat.pl/strona/pomoc/live-chat-plugin-prestashop można zrobić 
+* modul burger menu https://github.com/mbj36/vue-burger-menu
 * modul do robienia modulow z poziomu konsoli
 
 VUE backend:
