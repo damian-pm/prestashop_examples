@@ -1,0 +1,42 @@
+services:
+  _defaults:
+    public: true
+
+  dschat_chat_bot_answer_repo:
+    class: PrestaShop\Module\DSChat\Repository\ChatBotMessagesRepository
+    factory: ['@doctrine.orm.default_entity_manager', getRepository]
+    arguments:
+      - PrestaShop\Module\DSChat\Entity\DsChatBotMessages
+
+  dschat_chat_messages_repo:
+    class: PrestaShop\Module\DSChat\Repository\ChatMessagesRepository
+    # factory: ['@doctrine.orm.default_entity_manager', getRepository]
+    arguments:
+      - '@doctrine.dbal.default_connection'
+      - '%database_prefix%'
+      - '@doctrine.orm.entity_manager'  
+
+  dschat_chat_employee_repo:
+    class: PrestaShop\Module\DSChat\Repository\EmployeeRepository
+    # factory: ['@doctrine.orm.default_entity_manager', getRepository]
+    arguments:
+      - '@doctrine.dbal.default_connection'
+      - '%database_prefix%'
+      - '@doctrine.orm.entity_manager'
+
+  dschat_chat_configuration_repo:
+    class: PrestaShop\Module\DSChat\Repository\ConfigurationRepository
+    # factory: ['@doctrine.orm.default_entity_manager', getRepository]
+    arguments:
+      - '@doctrine.dbal.default_connection'
+      - '%database_prefix%'
+      - '@doctrine.orm.entity_manager'
+
+  dschat_chat_message_service:
+    class: PrestaShop\Module\DSChat\Service\MessageService
+    arguments:
+      - '@doctrine.orm.default_entity_manager'
+      - '@dschat_chat_bot_answer_repo'
+      - '@dschat_chat_messages_repo'
+      - '@dschat_chat_employee_repo'
+      - '@dschat_chat_configuration_repo'

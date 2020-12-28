@@ -1,0 +1,19 @@
+{
+    "name": "vendor/ds_chat",
+    "description": "simple chat bot",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Damian",
+            "email": "damian.portalm@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+          "PrestaShop\\Module\\DSChat\\": "src/" 
+        },
+        "classmap": ["ds_chat.php"],
+        "exclude-from-classmap": []
+      },
+    "require": {}
+}

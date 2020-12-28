@@ -1,0 +1,31 @@
+
+{% extends '@PrestaShop/Admin/layout.html.twig' %}
+
+{% block stylesheets %}
+{{ parent() }}
+{% endblock %}
+
+{% block javascripts %}
+  {{ parent() }}
+    <script src="{{ asset('../modules/ds_chat/src/Resources/app_panel/dist/app.bundle.js') }}"></script>
+    <script src="{{ asset('../modules/ds_chat/src/Resources/app_panel/dist/main.bundle.js') }}"></script>
+{% endblock %}
+
+
+{% block content %}
+<div id="app-dschat" 
+data-url-set-message="{{url_set_message}}"
+data-url-get-bot-messages="{{url_get_bot_msg}}"
+data-url-del-bot-message="{{url_del_bot_msg}}"
+data-url-add-bot-message="{{url_add_bot_msg}}"
+data-url-edit-bot-message="{{url_edit_bot_msg}}"
+data-url-get-summary-employee="{{url_get_summary_employee}}"
+data-url-set-owner="{{url_set_owner}}"
+data-url-full-chat="{{url_full_chat}}"
+data-employee-name="{{employee_name}}"
+data-employee-email="{{employee_email}}"
+>
+    <div id="app-ds-chat-panel" ></div>
+</div>
+
+{% endblock %}

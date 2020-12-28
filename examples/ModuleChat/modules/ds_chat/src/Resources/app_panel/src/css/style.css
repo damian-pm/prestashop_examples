@@ -1,0 +1,7 @@
+.text-bold {
+    font-weight: bold;
+}
+
+#app-ds-chat-panel button.btn-menu-chat {
+    margin-top: 1px;
+}

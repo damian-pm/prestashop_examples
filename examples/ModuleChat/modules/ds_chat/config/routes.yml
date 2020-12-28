@@ -1,0 +1,90 @@
+# admin-dev/modules/ds-chat/panel
+admin_link_block_dschat_index:
+    path: /ds-chat/panel
+    methods: [GET]
+    defaults:
+        _controller: PrestaShop\Module\DSChat\Controller\panelController::indexAction
+        _legacy_controller: dschat_index
+        _legacy_link: dschat_index
+
+# /admin-dev/modules/ds-chat/get-all-chat
+admin_link_block_dschat_get_full_chat:
+    path: /ds-chat/get-chat
+    methods: [POST]
+    defaults:
+        _controller: PrestaShop\Module\DSChat\Controller\panelController::getChat
+        _legacy_controller: dschat_get_full_chat
+        _legacy_link: dschat_get_full_chat
+
+# # /admin-dev/modules/ds-chat/get-all-chat
+# admin_link_block_dschat_get_all_chat:
+#     path: /ds-chat/get-all-chat
+#     methods: [GET]
+#     defaults:
+#         _controller: PrestaShop\Module\DSChat\Controller\panelController::getAllChatAction
+#         _legacy_controller: dschat_get_all_chat
+#         _legacy_link: dschat_get_all_chat
+# # /admin-dev/modules/ds-chat/get-chat
+# admin_link_block_dschat_get_chat_user:
+#     path: /ds-chat/get-chat
+#     methods: [POST]
+#     defaults:
+#         _controller: PrestaShop\Module\DSChat\Controller\panelController::getChatUserAction
+#         _legacy_controller: dschat_get_chat_user
+#         _legacy_link: dschat_get_chat_user
+# /admin-dev/modules/ds-chat/set-message
+admin_link_block_dschat_get_chat_set_message:
+    path: /ds-chat/set-message
+    methods: [POST]
+    defaults:
+        _controller: PrestaShop\Module\DSChat\Controller\panelController::setMessageToUserAction
+        _legacy_controller: dschat_get_chat_set_message
+        _legacy_link: dschat_get_chat_set_message
+# /admin-dev/modules/ds-chat/set-message
+admin_link_block_dschat_get_chat_get_bot_message:
+    path: /ds-chat/get-bot-messages
+    methods: [GET]
+    defaults:
+        _controller: PrestaShop\Module\DSChat\Controller\panelController::getBotMessages
+        _legacy_controller: dschat_get_chat_get_bot_messages
+        _legacy_link: dschat_get_chat_get_bot_messages
+# /admin-dev/modules/ds-chat/del-bot-message
+admin_link_block_dschat_get_chat_delete_bot_message:
+    path: /ds-chat/del-bot-message
+    methods: [POST, GET]
+    defaults:
+        _controller: PrestaShop\Module\DSChat\Controller\panelController::deleteBotMessage
+        _legacy_controller: dschat_get_chat_del_bot_messages
+        _legacy_link: dschat_get_chat_del_bot_messages
+# /admin-dev/modules/ds-chat/del-bot-message
+admin_link_block_dschat_get_chat_add_bot_message:
+    path: /ds-chat/add-bot-message
+    methods: [POST]
+    defaults:
+        _controller: PrestaShop\Module\DSChat\Controller\panelController::addBotMessage
+        _legacy_controller: dschat_get_chat_add_bot_messages
+        _legacy_link: dschat_get_chat_add_bot_messages
+# /admin-dev/modules/ds-chat/del-bot-message
+admin_link_block_dschat_get_chat_edit_bot_message:
+    path: /ds-chat/edit-bot-message
+    methods: [POST]
+    defaults:
+        _controller: PrestaShop\Module\DSChat\Controller\panelController::editBotMessage
+        _legacy_controller: dschat_get_chat_edit_bot_messages
+        _legacy_link: dschat_get_chat_edit_bot_messages
+# /admin-dev/modules/ds-chat/set-owner
+admin_link_block_dschat_set_owner:
+    path: /ds-chat/set-owner
+    methods: [POST]
+    defaults:
+        _controller: PrestaShop\Module\DSChat\Controller\panelController::setEmployeeOwner
+        _legacy_controller: dschat_set_owner
+        _legacy_link: dschat_set_owner
+# /admin-dev/modules/ds-chat/get-summary-employee
+admin_link_block_dschat_get_summary_employee:
+    path: /ds-chat/get-summary-employee
+    methods: [GET]
+    defaults:
+        _controller: PrestaShop\Module\DSChat\Controller\panelController::getSumMessagesEmployeers
+        _legacy_controller: dschat_get_summary_employee
+        _legacy_link: dschat_get_summary_employee

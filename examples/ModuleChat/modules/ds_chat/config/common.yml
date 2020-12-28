@@ -1,0 +1,27 @@
+# services:
+#   _defaults:
+#     public: true
+#   product_comment_repo:
+#     class: PrestaShop\Module\DSComment\Repository\DSCommentRepository
+#     arguments:
+#       - '@doctrine.dbal.default_connection'
+#       - '%database_prefix%'
+services:
+  _defaults:
+    public: true
+  dschat_chat_bot_messages_repo:
+    class: PrestaShop\Module\DSChat\Repository\ChatBotMessagesRepository
+    factory: ['@doctrine.orm.default_entity_manager', getRepository]
+    arguments:
+      - PrestaShop\Module\DSChat\Entity\DsChatBotMessages
+  dschat_chat_messages_repo:
+    class: PrestaShop\Module\DSChat\Repository\ChatMessagesRepository
+    arguments:
+      - '@doctrine.dbal.default_connection'
+      - '%database_prefix%'
+      - '@doctrine.orm.entity_manager'
+  dschat_chat_bot_service:
+    class: PrestaShop\Module\DSChat\Service\BotService
+    arguments:
+      - '@doctrine.orm.default_entity_manager'
+      - '@dschat_chat_bot_messages_repo'
