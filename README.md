@@ -2,10 +2,11 @@
 
 ### Recommanded
 * #### Modules:
+     * [Module Messanger (Chat) :star:](https://github.com/damian-pm/prestashop_examples/tree/master/examples/ModuleChat) :pushpin: NEW
      * [Module HookManager - full working - edit/delete/add :star:](https://github.com/damian-pm/prestashop_examples/tree/master/examples/ModuleHookManager)
      * [Module TranslateManager :star:](https://github.com/damian-pm/prestashop_examples/tree/master/examples/ModuleTextTranslate)
      * [Module Custom Console :star:](https://github.com/damian-pm/prestashop_examples/tree/master/examples/ModuleConsole)
-     * [Module Product Comment :star:](https://github.com/damian-pm/prestashop_examples/tree/master/examples/ModuleComment) 
+     * [Module Product Comment :star:](https://github.com/damian-pm/prestashop_examples/tree/master/examples/ModuleComment)
 * #### Themes
      * [Theme - Classic Spring - CSS :star:](https://github.com/damian-pm/prestashop_examples/tree/master/examples/ThemeClassicSpring)
 
@@ -34,7 +35,7 @@ Choose one of the example and install step by step them. I show here how to crea
     * [Tips](https://github.com/damian-pm/prestashop_examples/tree/master/examples/Helpers)
     * [Doctrine entity](https://github.com/damian-pm/prestashop_examples/tree/master/examples/Helpers/DoctrineHelper.md)
 * #### misc.
-    * [GitSQL Tool (MySql)- Very simple tool for backup and restore database](https://github.com/damian-pm/gitsql-tool/blob/main/README.md) :pushpin: NEW
+    * [GitSQL Tool (MySql)- Very simple tool for backup and restore database](https://github.com/damian-pm/gitsql-tool/blob/main/README.md)
     * [Example - Front-controller (Page)](https://github.com/damian-pm/prestashop_examples/tree/master/examples/ExampleFrontController)
     * [Example - Backend-controller (Admin Panel) (Symfony)](https://github.com/damian-pm/prestashop_examples/tree/master/examples/ExampleBackEndController)
     * [Example - Service translation with custome .xlf](https://github.com/damian-pm/prestashop_examples/tree/master/examples/ExampleTranslationService)
