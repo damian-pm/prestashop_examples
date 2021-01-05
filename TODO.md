@@ -18,6 +18,7 @@
 * czat online https://www.callchat.pl/strona/pomoc/live-chat-plugin-prestashop można zrobić 
 * modul burger menu https://github.com/mbj36/vue-burger-menu
 * modul do robienia modulow z poziomu konsoli
+* przyklad modulu ktory pokazuje przykladowa konfiguracje z inputami (text,color, data itd.) oraz widok w którym pojawią się te kolory
 
 VUE backend:
 * zad:
