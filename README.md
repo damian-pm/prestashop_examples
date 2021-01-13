@@ -1,5 +1,7 @@
 # Prestashop 1.7.6.7 - Examples
 
+[Generate skeleton module click here](https://validator.prestashop.com/generator)
+
 ### Recommanded
 * #### Modules:
      * [Module Messanger (Chat) :star:](https://github.com/damian-pm/prestashop_examples/tree/master/examples/ModuleChat) :pushpin: NEW
