@@ -5,6 +5,7 @@
 * add translations
     ```php
     //php
+    $trans          = $this->get('translator.default');
     $trans->trans("Update attribute ended with fails",[],'ModulesDsproduct')
     ```
     ```twig
