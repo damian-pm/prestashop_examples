@@ -8,6 +8,9 @@
 	```
 * create methods in module
 ```php
+use  Symfony\Component\Yaml\Yaml;
+
+...
     public function install()
     {
         return parent::install() && $this->addTranslations();
