@@ -63,3 +63,8 @@ use  Symfony\Component\Yaml\Yaml;
         return true;
     }
 ```
+
+... last step is to install module throw admin panel or console
+
+After install module all translations are added to table ``ps_translation``
+
