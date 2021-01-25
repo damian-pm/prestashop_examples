@@ -37,6 +37,7 @@ Choose one of the example and install step by step them. I show here how to crea
     * [Tips](https://github.com/damian-pm/prestashop_examples/tree/master/examples/Helpers)
     * [Doctrine entity](https://github.com/damian-pm/prestashop_examples/tree/master/examples/Helpers/DoctrineHelper.md)
 * #### misc.
+    * [Add translation in module with JMSTranslationBundle](https://github.com/damian-pm/prestashop_examples/tree/master/examples/DocTranslation/)
     * [GitSQL Tool (MySql)- Very simple tool for backup and restore database](https://github.com/damian-pm/gitsql-tool/blob/main/README.md)
     * [Example - Front-controller (Page)](https://github.com/damian-pm/prestashop_examples/tree/master/examples/ExampleFrontController)
     * [Example - Backend-controller (Admin Panel) (Symfony)](https://github.com/damian-pm/prestashop_examples/tree/master/examples/ExampleBackEndController)
