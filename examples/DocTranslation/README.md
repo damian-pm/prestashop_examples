@@ -1,6 +1,16 @@
-# Translation add in module
+# Translation add in module (for only Symfony files)
+
 
 * create module or genereate here : https://validator.prestashop.com/generator
+* add translations
+    ```php
+    //php
+    $trans->trans("Update attribute ended with fails",[],'ModulesDsproduct')
+    ```
+    ```twig
+    {*twig*}
+    {{ 'These modules are relative to the product page of your shop.'|trans({}, 'Admin.Catalog.Feature') }}
+    ```
 * install lib http://jmsyst.com/bundles/JMSTranslationBundle/master/installation
 * scan 
 	```bash
