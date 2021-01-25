@@ -1,5 +1,9 @@
 # Translation add in module (for only Symfony files)
 
+### Recommended module
+With this module you can easyer edit translation after generate [click](https://github.com/damian-pm/prestashop_examples/tree/master/examples/ModuleTextTranslate)
+
+### Generate and add translations
 
 * create module or genereate here : https://validator.prestashop.com/generator
 * add translations
