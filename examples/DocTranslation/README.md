@@ -17,7 +17,7 @@ With this module you can easyer edit translation after generate [click](https://
     {{ 'These modules are relative to the product page of your shop.'|trans({}, 'Admin.Catalog.Feature') }}
     ```
 * install lib http://jmsyst.com/bundles/JMSTranslationBundle/master/installation
-* scan 
+* scan  and generate .yml files
 	```bash
 	phpbc translation:extract en --output-dir=./modules/ds_product/translations/yml/ --dir=./modules/ds_product --output-format=yml
 	```
