@@ -1,4 +1,5 @@
-# Prestashop 1.7.6.7 - Examples
+# Prestashop - Examples
+tested on versions: 1.7.6, 1.7.7
 
 [Generate skeleton module click here](https://validator.prestashop.com/generator)
 
