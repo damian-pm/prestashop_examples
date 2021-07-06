@@ -18,7 +18,7 @@ class ds_chat extends Module implements WidgetInterface
     {
         $this->name = 'ds_chat';
         $this->author = 'Damian';
-        $this->version = '1.0.0';
+        $this->version = '1.0.2';
         $this->need_instance = 0;
         $this->INSTALL_SQL_FILE = 'dschat_table.sql';
 

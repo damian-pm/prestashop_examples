@@ -2,7 +2,7 @@
 <module>
     <name>ds_chat</name>
     <displayName><![CDATA[DS chat]]></displayName>
-    <version><![CDATA[1.0.0]]></version>
+    <version><![CDATA[1.0.2]]></version>
     <description><![CDATA[Simple chat ps]]></description>
     <author><![CDATA[Damian]]></author>
     <tab><![CDATA[]]></tab>

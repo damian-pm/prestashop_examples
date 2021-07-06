@@ -4,7 +4,9 @@
 #app-ds-chat ul {
         list-style: disc;
         margin-left:15px;
-    
+}
+#app-ds-chat p {
+     color:white;
 }
 #app-ds-chat a {
     color: #44f44a;

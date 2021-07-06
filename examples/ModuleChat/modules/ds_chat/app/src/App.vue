@@ -200,7 +200,7 @@ export default {
     position: fixed;
     right: 75px;
     bottom: 16px;
-    z-index: 2;
+    z-index: 5;
     border: 1px solid #dedede;
     box-shadow: 5px 5px 8px #4c4c4c;
 
