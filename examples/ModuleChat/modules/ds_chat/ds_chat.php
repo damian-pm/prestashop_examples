@@ -18,7 +18,7 @@ class ds_chat extends Module implements WidgetInterface
     {
         $this->name = 'ds_chat';
         $this->author = 'Damian';
-        $this->version = '1.0.2';
+        $this->version = '1.0.3';
         $this->need_instance = 0;
         $this->INSTALL_SQL_FILE = 'dschat_table.sql';
 
@@ -36,7 +36,7 @@ class ds_chat extends Module implements WidgetInterface
     {
         Config::updateGlobalValue('DS_CHAT_MESSAGE_OWNER_ID', '1');
         return parent::install() && 
-        $this->installSql() && 
+        $this->installDb() && 
         $this->registerHook('header') &&
         $this->registerHook('displayFooterBefore');
     }
@@ -54,10 +54,10 @@ class ds_chat extends Module implements WidgetInterface
     public function deleteTables()
     {
         // WARNING: permamently remove table
-        return Db::getInstance()->execute('
-            DROP TABLE IF EXISTS `' . _DB_PREFIX_ . 'ds_chat_messages`;
-            DROP TABLE IF EXISTS `' . _DB_PREFIX_ . 'ds_chat_bot_messages`;
-            ');
+        // return Db::getInstance()->execute('
+        //     DROP TABLE IF EXISTS `' . _DB_PREFIX_ . 'ds_chat_messages`;
+        //     DROP TABLE IF EXISTS `' . _DB_PREFIX_ . 'ds_chat_bot_messages`;
+        //     ');
         return true;
         
     }
@@ -72,27 +72,31 @@ class ds_chat extends Module implements WidgetInterface
 
         return true;
     }
+    function installDb(){
+        include(dirname(__FILE__).'/sql/install.php');
+        return true;
+    }
     /**
      * Install SQL file
      *
      * @return boolen
      */
-    public function installSql() {
-        if (!file_exists(dirname(__FILE__) . '/' . $this->INSTALL_SQL_FILE)){
-            return false;
-        } elseif (!$sql = file_get_contents(dirname(__FILE__) . '/' . $this->INSTALL_SQL_FILE)) {
-            return false;
-        }
-        $sql = str_replace(['PREFIX_','ENGINE_TYPE'], [_DB_PREFIX_,_MYSQL_ENGINE_], $sql);
-        $sql = preg_split("/;\s*[\r\n]+/", trim($sql));
+    // public function installSql() {
+    //     if (!file_exists(dirname(__FILE__) . '/' . $this->INSTALL_SQL_FILE)){
+    //         return false;
+    //     } elseif (!$sql = file_get_contents(dirname(__FILE__) . '/' . $this->INSTALL_SQL_FILE)) {
+    //         return false;
+    //     }
+    //     $sql = str_replace(['PREFIX_','ENGINE_TYPE'], [_DB_PREFIX_,_MYSQL_ENGINE_], $sql);
+    //     $sql = preg_split("/;\s*[\r\n]+/", trim($sql));
 
-        foreach ($sql as $query) {
-            if (!Db::getInstance()->execute(trim($query))) {
-                return false;
-            }
-        }
-        return true;
-    }
+    //     foreach ($sql as $query) {
+    //         if (!Db::getInstance()->execute(trim($query))) {
+    //             return false;
+    //         }
+    //     }
+    //     return true;
+    // }
     /**
      * Undocumented function
      *
